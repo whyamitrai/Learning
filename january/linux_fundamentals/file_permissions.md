@@ -57,3 +57,5 @@ For example, a file might have read, write, and execute permissions for its owne
 - **Others:** `r--` = 4+0+0 = **4**
 
 The results produce the three-digit value **744**.
+
+**To modify the permission of a file we use "chmod 744 test.txt(filename)"**
