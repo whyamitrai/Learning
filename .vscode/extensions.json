@@ -1,0 +1,10 @@
+{
+  "recommendations": [],
+  "unwantedRecommendations": [
+    "ms-python.vscode-pylance",
+    "ms-python.python",
+    "visualstudioexptteam.vscodeintellicode",
+    "amazonwebservices.amazon-q-vscode",
+    "github.copilot"
+  ]
+}

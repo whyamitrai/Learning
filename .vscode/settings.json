@@ -1,0 +1,30 @@
+{
+  // Global editor silence
+  "editor.suggest.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.hover.enabled": "off",
+  "editor.inlineSuggest.enabled": false,
+  "editor.snippetSuggestions": "none",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.wordBasedSuggestions": "off",
+  "editor.lightbulb.enabled": "off",
+  "editor.codeLens": false,
+
+  // Language server / semantic features
+  "editor.semanticHighlighting.enabled": false,
+
+  // Python-specific (extra safety)
+  "[python]": {
+    "editor.suggest.enabled": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  }
+}
