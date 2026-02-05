@@ -24,3 +24,6 @@
 |   22 | Subarray Sums Divisible by K                   | Prefix Sum + Hashmap (Modulo, Count)     | ✅ Fully independent                      |
 |   23 | Binary Subarrays With Sum                      | Prefix Sum + Hashmap (Exact Sum, Count)  | 🟡 Guided → final independent             |
 |   24 | Maximum Size Subarray Sum Equals K             | Prefix Sum + Hashmap (Max Length)        | ✅ Fully independent                      |
+|   25 | Maximum Subarray                               | Kadane                                   | ✅ Fully independent                      |
+|   26 | Best Time to Buy and Sell Stock                | Kadane Variant                           | ✅ Fully independent                      |
+|   27 | Maximum Sum Circular Subarray                  | Kadane (Circular)                        | ✅ Fully independent                      |
