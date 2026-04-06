@@ -10,8 +10,8 @@ After solving any problem, it enters this cycle:
 
 | Review | When | What to do |
 |--------|------|------------|
-| R1 | Next day | Invariant + approach explain kar bina dekhe. No code. |
-| R2 | Day 3 | Skeleton from memory. Dry run in head. |
+| R1 | Next day | Invariant + approach explain kar bina dekhe. Skeleton + code from memory. |
+| R2 | Day 3 | Full code from scratch. Dry run in head. |
 | R3 | Day 7 | Solve from scratch. Time yourself. |
 | R4 | Day 14 | Solve again. Clean → Locked ✅. Struggle → Reset to R1. |
 | R5 | Day 30 | Final dry run. Clean → Permanently Locked 🔒 |

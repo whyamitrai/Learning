@@ -18,8 +18,8 @@ Current Pattern : Trees (DFS)
 Current Problem : Balanced Binary Tree
 Problem Status  : ✅ Solved
 Problems Solved : 43
-Next Step       : Start next problem — Path Sum
-Waiting For     : Nothing — ready for next problem
+Next Step       : Start Path Sum + R1 revision of Balanced Binary Tree
+Waiting For     : Session start — "read dsa/CONTEXT.md"
 Notes           : Balanced Binary Tree done. Used -1 signal trick (same as boolean check template). Clean solve.
 ```
 
@@ -112,6 +112,7 @@ career/genai_learning/
 ├── 03_ml_fundamentals.md       ← ML basics (concept level for 12L, hands-on for 20L+)
 ├── 04_system_design_and_interviews.md ← System design, STAR answers, negotiation
 ├── 05_github_project_plan.md   ← Projects to build for GitHub
+├── 06_cicd_and_devops.md        ← CI/CD, GitHub Actions, Docker pipelines, deployment strategies
 ├── flashcards.md               ← Active recall cards (GenAI + ML + interviews)
 └── my_understanding.md         ← Personal doubts & answers
 ```
