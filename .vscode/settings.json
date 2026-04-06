@@ -15,6 +15,9 @@
   "editor.lightbulb.enabled": "off",
   "editor.codeLens": false,
 
+  // Markdown PDF - remove header/footer
+  "markdown-pdf.displayHeaderFooter": false,
+
   // Language server / semantic features
   "editor.semanticHighlighting.enabled": false,
 

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Amit Rai - Resume</title>
+<style>
+  @page { margin: 0.4in 0.55in; size: A4; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.35;
+    color: #1a1a1a;
+    max-width: 8.27in;
+    margin: 0 auto;
+    padding: 0.4in 0.55in;
+  }
+  h1 {
+    font-size: 19pt;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3px;
+    color: #111;
+    letter-spacing: 1px;
+  }
+  .contact {
+    text-align: center;
+    font-size: 9.5pt;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .contact a { color: #333; text-decoration: none; }
+  h2 {
+    font-size: 11pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid #333;
+    padding-bottom: 2px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: #111;
+    letter-spacing: 0.5px;
+  }
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+  .job-title { font-weight: 700; font-size: 10.5pt; }
+  .job-date { font-size: 9.5pt; color: #444; white-space: nowrap; }
+  .job-company { font-size: 9.5pt; color: #444; margin-bottom: 4px; }
+  ul { padding-left: 18px; margin-bottom: 5px; }
+  li { margin-bottom: 2px; font-size: 10.5pt; }
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 5px;
+    margin-bottom: 1px;
+  }
+  .project-name { font-weight: 700; font-size: 10.5pt; }
+  .project-tech { font-size: 9pt; color: #555; }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 85px 1fr;
+    gap: 2px 8px;
+    font-size: 10.5pt;
+  }
+  .skill-label { font-weight: 700; font-size: 10pt; }
+  .skill-value { font-size: 10pt; }
+  .cert-line, .edu-line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10.5pt;
+  }
+  .interests { font-size: 9.5pt; color: #444; margin-top: 2px; }
+  @media print {
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<h1>AMIT RAI</h1>
+<div class="contact">
+  Bangalore, Karnataka, India &nbsp;|&nbsp; amitrai11032000@gmail.com &nbsp;|&nbsp; +91-8770920958 &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/amit-rai-aa1495246">linkedin.com/in/amit-rai-aa1495246</a>
+</div>
+
+<h2>Summary</h2>
+<p>GenAI Developer with 2 years of production experience in building AI-powered systems on AWS. Shipped 3 enterprise GenAI solutions for healthcare and retail clients — multi-agent IaC generator (LangGraph), conversational chatbot (Bedrock + RAG), and real-time voice bot (Nova Sonic). AWS Certified Developer – Associate.</p>
+
+<h2>Experience</h2>
+
+<div class="job-header">
+  <span class="job-title">GenAI Developer / Cloud Automation Engineer</span>
+  <span class="job-date">Jun 2024 – Present</span>
+</div>
+<div class="job-company">Rapyder Cloud Solutions, Bangalore</div>
+<ul>
+  <li>Architected a multi-agent IaC generator using LangGraph and AWS Bedrock (Claude) that parses architecture diagrams and generates deployable Terraform templates with proper modules, naming conventions, and configurations — reducing infrastructure setup from 3 days to 20 minutes</li>
+  <li>Built a serverless healthcare chatbot on AWS (Lambda, API Gateway, DynamoDB, Bedrock) integrating 4 hospital management APIs for appointment scheduling and patient queries, handling 150+ daily conversations</li>
+  <li>Engineered a real-time retail voice bot using AWS Nova Sonic with bidirectional WebSocket streaming, achieving sub-200ms first-response latency, containerized with Docker on ECS</li>
+  <li>Designed and deployed RAG pipelines with ChromaDB and Pinecone across 3 client projects, improving retrieval accuracy through chunking optimization and context-grounded generation</li>
+  <li>Implemented Bedrock API cost tracking and guardrails across 5+ AWS services, keeping GenAI operational spend within allocated client budgets</li>
+  <li>Managed IAM roles and least-privilege policies for GenAI workloads, configured CloudWatch monitoring and logging for Lambda-based services across all client projects</li>
+  <li>Mentored 2 junior engineers during onboarding phase, guiding them through GenAI development workflows and AWS service integration patterns</li>
+</ul>
+
+<div class="job-header">
+  <span class="job-title">Career Transition</span>
+  <span class="job-date">2022 – May 2024</span>
+</div>
+<ul>
+  <li>Prepared for Combined Defence Services (CDS) examination; self-studied Python, cloud computing, and AWS services during transition into technology</li>
+</ul>
+
+<h2>Projects</h2>
+
+<div class="project-header">
+  <span class="project-name">IaC Template Generator from Architecture Diagrams</span>
+  <span class="project-tech">LangGraph, AWS Bedrock (Claude), Python, Terraform</span>
+</div>
+<ul>
+  <li>Multi-agent GenAI pipeline using supervisor pattern that takes architecture diagrams as input and generates production-ready Terraform with modules, naming, and security configs. Reduced manual IaC effort by 85%</li>
+</ul>
+
+<div class="project-header">
+  <span class="project-name">Healthcare Patient-Frontdesk Chatbot</span>
+  <span class="project-tech">AWS Bedrock, Lambda, API Gateway, DynamoDB, RAG</span>
+</div>
+<ul>
+  <li>Serverless conversational AI with RAG-based medical knowledge retrieval, safety filters for emergency detection, and audit logging for compliance</li>
+</ul>
+
+<div class="project-header">
+  <span class="project-name">Real-Time Retail Voice Bot</span>
+  <span class="project-tech">AWS Nova Sonic, Bedrock, WebSocket, Docker, ECS</span>
+</div>
+<ul>
+  <li>Bidirectional streaming voice bot with parallel STT, LLM inference, and TTS pipeline for sub-second hands-free retail customer support</li>
+</ul>
+
+<h2>Skills</h2>
+<div class="skills-grid">
+  <span class="skill-label">GenAI</span>
+  <span class="skill-value">LangChain, LangGraph, AWS Bedrock (Claude, Titan), RAG, ChromaDB, Pinecone, Multi-Agent Systems, Prompt Engineering, Ollama</span>
+  <span class="skill-label">Cloud</span>
+  <span class="skill-value">AWS (Lambda, API Gateway, S3, EC2, ECS, Bedrock, Cognito), Terraform, CloudFormation, Docker, CI/CD</span>
+  <span class="skill-label">Programming</span>
+  <span class="skill-value">Python, FastAPI, Boto3, REST APIs, Git, Linux</span>
+  <span class="skill-label">Databases</span>
+  <span class="skill-value">DynamoDB, PostgreSQL, ChromaDB, Pinecone</span>
+</div>
+
+<h2>Certifications</h2>
+<div class="cert-line">
+  <span>AWS Certified Developer – Associate</span>
+  <span>Amazon Web Services</span>
+</div>
+
+<h2>Education</h2>
+<div class="edu-line">
+  <span>B.Tech in Electronics and Communication — LNCTS, Bhopal</span>
+  <span>2018 – 2022</span>
+</div>
+
+
+</body>
+</html>
