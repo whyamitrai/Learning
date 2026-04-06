@@ -73,7 +73,7 @@
 | 2 | Same Tree | Compare two trees | — |
 | 3 | Invert Binary Tree | Swap children | — |
 | 4 | Diameter of Binary Tree | Global + return height | — |
-| 5 | Balanced Binary Tree | 🔄 Current | — |
+| 5 | Balanced Binary Tree | Boolean check (-1 signal) | 2025-04-07 |
 
 ---
 
@@ -87,5 +87,5 @@
 | Kadane's | 3 | ✅ |
 | Binary Search | 6 | ✅ |
 | Monotonic Stack | 5 | ✅ |
-| Trees (DFS) | 4 + 1 current | 🔄 |
-| **Total** | **42 + 1** | |
+| Trees (DFS) | 5 | 🔄 |
+| **Total** | **43** | |

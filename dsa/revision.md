@@ -26,7 +26,7 @@ After solving any problem, it enters this cycle:
 
 | # | Problem | Pattern | Solved On | R1 | R2 | R3 | R4 | R5 | Status |
 |---|---------|---------|-----------|----|----|----|----|----|----|
-| | | | | | | | | | |
+| 1 | Balanced Binary Tree | Trees (DFS) — Boolean check (-1 signal) | 2025-04-07 | Apr 8 | Apr 10 | Apr 14 | Apr 21 | May 7 | 🔴 |
 
 *(New problems get added here as we solve them)*
 
