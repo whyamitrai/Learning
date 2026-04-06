@@ -18,9 +18,9 @@ Current Pattern : Trees (DFS)
 Current Problem : Balanced Binary Tree
 Problem Status  : ✅ Solved
 Problems Solved : 43
-Next Step       : Start Path Sum + R1 revision of Balanced Binary Tree
+Next Step       : R1 revision of Balanced Binary Tree + Start Path Sum + Simplify ML file
 Waiting For     : Session start — "read dsa/CONTEXT.md"
-Notes           : Balanced Binary Tree done. Used -1 signal trick (same as boolean check template). Clean solve.
+Notes           : Balanced Binary Tree done. CI/CD file (06) created. ML concepts need simplification — sar ke upar gaye. Revision system updated — R1 now includes code.
 ```
 
 ---
