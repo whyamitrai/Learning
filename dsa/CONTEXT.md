@@ -1,7 +1,27 @@
 # DSA Learning Context — Amit Rai
 
-> If you're an AI reading this: this file is the SINGLE SOURCE OF TRUTH.
-> Read this file + progress.md + revision.md to fully restore context.
+> **AI INSTRUCTIONS:** This is the SINGLE SOURCE OF TRUTH for session restore.
+> 1. Read this file FIRST
+> 2. Then read: progress.md, revision.md, pattern_notes.md
+> 3. Resume from "LIVE SESSION STATE" section below
+> 4. Follow ALL rules in this file strictly — no exceptions
+
+---
+
+## 📡 LIVE SESSION STATE
+> **UPDATE THIS SECTION AFTER EVERY SESSION / PROBLEM**
+> This is what makes cross-device sync work. Push after every session.
+
+```
+Last Updated    : 2025-04-06
+Current Pattern : Trees (DFS)
+Current Problem : Balanced Binary Tree
+Problem Status  : Not started — about to begin intuition step
+Problems Solved : 42
+Next Step       : Ask me for intuition, invariant, base case, return value
+Waiting For     : My answers to the 4 questions about Balanced Binary Tree
+Notes           : Just finished setting up all files (progress, revision, pattern_notes, flashcards)
+```
 
 ---
 
@@ -51,7 +71,7 @@ If my code is wrong:
 - Focus on thinking, not coding
 - Push me if I'm vague
 - Correct me bluntly if wrong — say "This is wrong because..."
-- After every problem: update progress.md and revision.md
+- After every problem: update progress.md, revision.md, and LIVE SESSION STATE above
 
 ## 🧠 Key Insights I've Built So Far
 - "Har node ek mini problem hai"
@@ -61,12 +81,6 @@ If my code is wrong:
 - "Recursion = bottom-up build"
 - Tree = recursive structure, every node = subtree root
 - Difference between: height vs diameter, return vs global, node vs node's answer
-
-## 📍 Current State
-- **Current Pattern:** Trees (DFS)
-- **Current Problem:** Balanced Binary Tree
-- **Patterns Completed:** Two Pointers, Hashmap/Set, Sliding Window, Prefix Sum, Kadane's, Binary Search, Monotonic Stack
-- **Total Problems Solved:** 42
 
 ## 🗺️ Upcoming Plan
 Trees progression after Balanced Binary Tree:
@@ -86,19 +100,19 @@ After Trees:
 ## 📂 File Structure
 ```
 dsa/
-├── CONTEXT.md      ← You are here. Full context restore point.
-├── progress.md     ← All solved problems by pattern
-├── revision.md     ← Spaced repetition tracker (R1-R5 cycle)
-└── pattern_notes.md ← Pattern recognition guide + analogies + when to use/not use
+├── CONTEXT.md       ← THIS FILE. Session state + all rules. Read FIRST.
+├── progress.md      ← All solved problems by pattern with dates
+├── revision.md      ← Spaced repetition tracker (R1-R5 cycle)
+└── pattern_notes.md ← Pattern recognition: analogy + MUST HAVE + templates
 
 career/genai_learning/
 ├── 00_career_strategy.md       ← Where to apply, messages, daily routine
 ├── 01_genai_foundations.md      ← LLM, tokens, embeddings, prompting
 ├── 02_langchain_and_orchestration.md ← LangChain, RAG, agents, vector DBs
-├── 03_ml_fundamentals.md       ← ML basics (for 20L+ roles — LATER)
+├── 03_ml_fundamentals.md       ← ML basics (concept level for 12L, hands-on for 20L+)
 ├── 04_system_design_and_interviews.md ← System design, STAR answers, negotiation
 ├── 05_github_project_plan.md   ← Projects to build for GitHub
-├── flashcards.md               ← Active recall cards for GenAI concepts
+├── flashcards.md               ← Active recall cards (GenAI + ML + interviews)
 └── my_understanding.md         ← Personal doubts & answers
 ```
 
@@ -106,7 +120,7 @@ career/genai_learning/
 **Phase 1 (Next 2 months): Get 10-12L offer**
 - DSA: Finish trees → graphs → basic DP → heap → target 80-100 problems
 - GenAI + ML: Flashcard review daily (10 cards/day) — covers Files 01, 02, 03, 04
-- ML concepts at CONCEPT level (explain transformers, overfitting, evaluation — not hands-on training)
+- ML concepts at CONCEPT level (explain transformers, overfitting, evaluation — not hands-on)
 - Interview: STAR stories ready (File 04), salary negotiation script ready
 - GitHub: Build at least Project 1 (RAG chatbot) from File 05
 - Apply: 2-3 targeted applications/day using process in File 00
@@ -118,7 +132,16 @@ career/genai_learning/
 - Projects: All 3 GitHub projects done
 
 ## 📊 Tracking Rules
-- After every problem: add to progress.md with date
-- After every problem: add to revision.md with R1-R5 schedule
+- After every problem: update progress.md with date
+- After every problem: update revision.md with R1-R5 schedule
+- After every session: update LIVE SESSION STATE at top of this file
 - At end of a pattern: show full updated summary
-- This file (CONTEXT.md): update "Current State" section when pattern or problem changes
+- **CROSS-DEVICE WORKFLOW:** Update files → git push → other laptop → git pull → tell AI "read dsa/CONTEXT.md" → continue
+
+## 🔄 How To Resume On Any Device
+1. `git pull`
+2. Open chat with AI
+3. Say: "read dsa/CONTEXT.md and continue from where we left off"
+4. AI reads LIVE SESSION STATE → knows exactly where you are
+5. Continue solving
+6. When done: AI updates files → you `git push`
