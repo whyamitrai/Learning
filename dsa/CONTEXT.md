@@ -13,14 +13,14 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2025-04-07
+Last Updated    : 2025-04-08
 Current Pattern : Trees (DFS)
-Current Problem : Balanced Binary Tree
+Current Problem : Balanced Binary Tree — DONE. Next: Path Sum
 Problem Status  : ✅ Solved
 Problems Solved : 43
-Next Step       : R1 revision of Balanced Binary Tree + Start Path Sum + Simplify ML file
-Waiting For     : Session start — "read dsa/CONTEXT.md"
-Notes           : Balanced Binary Tree done. CI/CD file (06) created. ML concepts need simplification — sar ke upar gaye. Revision system updated — R1 now includes code.
+Next Step       : Start Path Sum (intuition → invariant → code flow)
+Waiting For     : Session start — ready for Path Sum
+Notes           : Setup complete. Files created: progress.md, revision.md, pattern_notes.md (with templates + MUST HAVE), flashcards.md (42 cards — GenAI + ML + interviews). Learning files rewritten beginner-friendly: 03 (ML), 06 (Docker), 07 (Terraform), 08 (CI/CD). Revision system starts fresh from now — no backlog. Balanced Binary Tree solved on other device.
 ```
 
 ---
