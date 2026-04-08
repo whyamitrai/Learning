@@ -109,12 +109,16 @@ career/genai_learning/
 ├── 00_career_strategy.md       ← Where to apply, messages, daily routine
 ├── 01_genai_foundations.md      ← LLM, tokens, embeddings, prompting
 ├── 02_langchain_and_orchestration.md ← LangChain, RAG, agents, vector DBs
-├── 03_ml_fundamentals.md       ← ML basics (concept level for 12L, hands-on for 20L+)
+├── 03_ml_fundamentals.md       ← ML basics — zero se, beginner-friendly
 ├── 04_system_design_and_interviews.md ← System design, STAR answers, negotiation
 ├── 05_github_project_plan.md   ← Projects to build for GitHub
-├── 06_cicd_and_devops.md        ← CI/CD, GitHub Actions, Docker pipelines, deployment strategies
+├── 06_docker.md                ← Docker — zero se samajh
+├── 07_terraform.md             ← Terraform — zero se samajh
+├── 08_cicd.md                  ← CI/CD — zero se (Docker + Terraform pehle padh)
 ├── flashcards.md               ← Active recall cards (GenAI + ML + interviews)
 └── my_understanding.md         ← Personal doubts & answers
+
+Reading order for DevOps: 06 (Docker) → 07 (Terraform) → 08 (CI/CD)
 ```
 
 ## 🎯 Two-Phase Plan
