@@ -74,6 +74,7 @@
 | 3 | Invert Binary Tree | Swap children | — |
 | 4 | Diameter of Binary Tree | Global + return height | — |
 | 5 | Balanced Binary Tree | Boolean check (-1 signal) | 2025-04-07 |
+| 6 | Path Sum | Root-to-leaf sum check | 2025-04-10 |
 
 ---
 
@@ -87,5 +88,5 @@
 | Kadane's | 3 | ✅ |
 | Binary Search | 6 | ✅ |
 | Monotonic Stack | 5 | ✅ |
-| Trees (DFS) | 5 | 🔄 |
-| **Total** | **43** | |
+| Trees (DFS) | 6 | 🔄 |
+| **Total** | **44** | |

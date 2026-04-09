@@ -13,14 +13,14 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2025-04-08
+Last Updated    : 2025-04-10
 Current Pattern : Trees (DFS)
-Current Problem : Balanced Binary Tree — DONE. Next: Path Sum
+Current Problem : Path Sum — DONE. Next: Lowest Common Ancestor
 Problem Status  : ✅ Solved
-Problems Solved : 43
-Next Step       : Start Path Sum (intuition → invariant → code flow)
-Waiting For     : Session start — ready for Path Sum
-Notes           : Setup complete. Files created: progress.md, revision.md, pattern_notes.md (with templates + MUST HAVE), flashcards.md (42 cards — GenAI + ML + interviews). Learning files rewritten beginner-friendly: 03 (ML), 06 (Docker), 07 (Terraform), 08 (CI/CD). Revision system starts fresh from now — no backlog. Balanced Binary Tree solved on other device.
+Problems Solved : 44
+Next Step       : Start Lowest Common Ancestor
+Waiting For     : Session start — ready for LCA
+Notes           : Path Sum solved. Key learning: remaining subtract PEHLE karo, phir leaf check, phir recurse. Argument mein pass karna cleaner than mutable state. return left or right — clean combine.
 ```
 
 ---
