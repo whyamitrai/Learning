@@ -28,6 +28,7 @@ After solving any problem, it enters this cycle:
 |---|---------|---------|-----------|----|----|----|----|----|----|
 | 1 | Balanced Binary Tree | Trees (DFS) — Boolean check (-1 signal) | 2025-04-07 | Apr 8 | Apr 10 | Apr 14 | Apr 21 | May 7 | 🔴 |
 | 2 | Path Sum | Trees (DFS) — Root-to-leaf sum check | 2025-04-10 | Apr 11 | Apr 13 | Apr 17 | Apr 24 | May 10 | 🔴 |
+| 3 | Lowest Common Ancestor | Trees (DFS) — LCA via left/right signals | 2025-04-10 | Apr 11 | Apr 13 | Apr 17 | Apr 24 | May 10 | 🔴 |
 
 *(New problems get added here as we solve them)*
 

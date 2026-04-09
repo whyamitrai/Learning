@@ -15,12 +15,12 @@
 ```
 Last Updated    : 2025-04-10
 Current Pattern : Trees (DFS)
-Current Problem : Path Sum — DONE. Next: Lowest Common Ancestor
+Current Problem : LCA — DONE. Next: Binary Tree Level Order Traversal (BFS intro)
 Problem Status  : ✅ Solved
-Problems Solved : 44
-Next Step       : Start Lowest Common Ancestor
-Waiting For     : Session start — ready for LCA
-Notes           : Path Sum solved. Key learning: remaining subtract PEHLE karo, phir leaf check, phir recurse. Argument mein pass karna cleaner than mutable state. return left or right — clean combine.
+Problems Solved : 45
+Next Step       : Start Level Order Traversal (BFS concept intro)
+Waiting For     : Session start — ready for BFS intro
+Notes           : LCA solved. Key learning: return value = node ya None (signal upar bhejo). 4 combine cases: dono None, sirf left, sirf right, dono found = main LCA. "return left or right" shorthand for 3 cases. Path Sum + LCA same day done.
 ```
 
 ---
@@ -64,6 +64,7 @@ If my code is wrong:
 3. Give a small failing example
 4. Let me fix it
 5. **DO NOT rewrite code directly. NEVER give me the full solution.**
+6. **When my logic is correct but has typos/style issues — point them out, let ME fix and write the final clean code. DO NOT write the clean version for me. EVER.**
 
 ## ⚠️ Behavior Rules
 - Never give full solution directly
