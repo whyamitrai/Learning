@@ -13,14 +13,14 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2025-04-10
-Current Pattern : Trees (DFS)
-Current Problem : LCA — DONE. Next: Binary Tree Level Order Traversal (BFS intro)
+Last Updated    : 2025-04-11
+Current Pattern : Trees (DFS/BFS)
+Current Problem : Level Order Traversal — DONE. Trees pattern almost complete.
 Problem Status  : ✅ Solved
-Problems Solved : 45
-Next Step       : Start Level Order Traversal (BFS concept intro)
-Waiting For     : Session start — ready for BFS intro
-Notes           : LCA solved. Key learning: return value = node ya None (signal upar bhejo). 4 combine cases: dono None, sirf left, sirf right, dono found = main LCA. "return left or right" shorthand for 3 cases. Path Sum + LCA same day done.
+Problems Solved : 46
+Next Step       : 1-2 more tree problems OR start revision sprint (2-3 days random)
+Waiting For     : Decision — more tree problems or revision sprint
+Notes           : Level Order done — first BFS problem. Learned queue (deque), BFS vs DFS concept. Key: while q → for range(len(q)) → popleft → add children → level list → result. New rule added: AI must NEVER write final clean code, only point out issues.
 ```
 
 ---

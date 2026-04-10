@@ -76,6 +76,7 @@
 | 5 | Balanced Binary Tree | Boolean check (-1 signal) | 2025-04-07 |
 | 6 | Path Sum | Root-to-leaf sum check | 2025-04-10 |
 | 7 | Lowest Common Ancestor | Find LCA using left/right signals | 2025-04-10 |
+| 8 | Binary Tree Level Order Traversal | BFS with queue, level-wise grouping | 2025-04-11 |
 
 ---
 
@@ -89,5 +90,5 @@
 | Kadane's | 3 | ✅ |
 | Binary Search | 6 | ✅ |
 | Monotonic Stack | 5 | ✅ |
-| Trees (DFS) | 7 | 🔄 |
-| **Total** | **45** | |
+| Trees (DFS) | 8 | 🔄 |
+| **Total** | **46** | |
