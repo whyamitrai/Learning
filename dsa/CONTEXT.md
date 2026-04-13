@@ -3,8 +3,10 @@
 > **AI INSTRUCTIONS:** This is the SINGLE SOURCE OF TRUTH for session restore.
 > 1. Read this file FIRST
 > 2. Then read: progress.md, revision.md, pattern_notes.md
-> 3. Resume from "LIVE SESSION STATE" section below
-> 4. Follow ALL rules in this file strictly — no exceptions
+> 3. Compare current date with "Last Updated" in LIVE SESSION STATE — is this same day or new day?
+> 4. Resume from "LIVE SESSION STATE" section below
+> 5. Follow ALL rules in this file strictly — no exceptions
+> 6. **CRITICAL: EVERY TIME you update this file — check current date from system context FIRST. Never assume date. Always verify.**
 
 ---
 
@@ -13,15 +15,25 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2025-04-11
+Last Updated    : 2026-04-13
 Current Pattern : Trees (DFS/BFS)
-Current Problem : Level Order Traversal — DONE. Trees pattern almost complete.
+Current Problem : Validate BST — DONE.
 Problem Status  : ✅ Solved
-Problems Solved : 46
-Next Step       : 1-2 more tree problems OR start revision sprint (2-3 days random)
-Waiting For     : Decision — more tree problems or revision sprint
-Notes           : Level Order done — first BFS problem. Learned queue (deque), BFS vs DFS concept. Key: while q → for range(len(q)) → popleft → add children → level list → result. New rule added: AI must NEVER write final clean code, only point out issues.
+Problems Solved : 47
+Next Step       : 1 more tree problem (Binary Tree Right Side View) then revision sprint
+Waiting For     : Next session start
+Notes           : Validate BST done. New concept: passing range (lower, upper) as parameters. Key insight: bounds come from OUTSIDE, tighten as you go deeper.
 ```
+
+## 📅 Session Log
+> Track what happened each day. Helps AI know if same day or next day, and if we're on track.
+
+| Date | What Happened | New Problems | Revision Done | Notes |
+|------|--------------|-------------|---------------|-------|
+| Apr 10 | Path Sum + LCA solved | 2 (Path Sum, LCA) | — | First time solving LCA, 4 combine cases learned |
+| Apr 11 | Level Order Traversal solved | 1 (Level Order) | — | First BFS problem, learned queue/deque |
+| Apr 12 | Revision + Validate BST | 1 (Validate BST) | Path Sum ✅, LCA ❌→✅, Level Order ✅ | LCA base case weak, fixed. BST — new concept |
+| Apr 13 | Revision + BST continued | — | LCA revised ❌→✅ | Date tracking rule added |
 
 ---
 

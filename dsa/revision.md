@@ -30,6 +30,7 @@ After solving any problem, it enters this cycle:
 | 2 | Path Sum | Trees (DFS) — Root-to-leaf sum check | 2025-04-10 | Apr 11 | Apr 13 | Apr 17 | Apr 24 | May 10 | 🔴 |
 | 3 | Lowest Common Ancestor | Trees (DFS) — LCA via left/right signals | 2025-04-10 | Apr 11 | Apr 13 | Apr 17 | Apr 24 | May 10 | 🔴 |
 | 4 | Binary Tree Level Order Traversal | Trees (BFS) — Queue, level grouping | 2025-04-11 | Apr 12 | Apr 14 | Apr 18 | Apr 25 | May 11 | 🔴 |
+| 5 | Validate BST | Trees (DFS) — Range (lower, upper) pass | 2026-04-13 | Apr 14 | Apr 16 | Apr 20 | Apr 27 | May 13 | 🔴 |
 
 *(New problems get added here as we solve them)*
 
