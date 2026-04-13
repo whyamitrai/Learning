@@ -16,13 +16,13 @@
 
 ```
 Last Updated    : 2026-04-13
-Current Pattern : Trees (DFS/BFS)
-Current Problem : Validate BST — DONE.
+Current Pattern : Trees (DFS/BFS) — DONE
+Current Problem : Right Side View — DONE. Trees pattern complete.
 Problem Status  : ✅ Solved
-Problems Solved : 47
-Next Step       : 1 more tree problem (Binary Tree Right Side View) then revision sprint
-Waiting For     : Next session start
-Notes           : Validate BST done. New concept: passing range (lower, upper) as parameters. Key insight: bounds come from OUTSIDE, tighten as you go deeper.
+Problems Solved : 48
+Next Step       : 2-3 day random revision sprint across all patterns
+Waiting For     : Next session start — revision sprint
+Notes           : Trees pattern complete (10 problems). Right Side View = BFS template + level[-1]. Pattern recognition working — solved in 2 min by reusing Level Order.
 ```
 
 ## 📅 Session Log
@@ -33,7 +33,7 @@ Notes           : Validate BST done. New concept: passing range (lower, upper) a
 | Apr 10 | Path Sum + LCA solved | 2 (Path Sum, LCA) | — | First time solving LCA, 4 combine cases learned |
 | Apr 11 | Level Order Traversal solved | 1 (Level Order) | — | First BFS problem, learned queue/deque |
 | Apr 12 | Revision + Validate BST | 1 (Validate BST) | Path Sum ✅, LCA ❌→✅, Level Order ✅ | LCA base case weak, fixed. BST — new concept |
-| Apr 13 | Revision + BST continued | — | LCA revised ❌→✅ | Date tracking rule added |
+| Apr 13 | Revision + BST + Right Side View | 2 (BST, Right Side View) | LCA revised ❌→✅ | Trees pattern COMPLETE (10 problems). Right Side View done in 2 min — pattern recognition working. |
 
 ---
 

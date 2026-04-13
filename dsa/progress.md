@@ -78,6 +78,7 @@
 | 7 | Lowest Common Ancestor | Find LCA using left/right signals | 2025-04-10 |
 | 8 | Binary Tree Level Order Traversal | BFS with queue, level-wise grouping | 2025-04-11 |
 | 9 | Validate BST | Range check (lower, upper) pass in recursion | 2026-04-13 |
+| 10 | Binary Tree Right Side View | BFS — last element of each level | 2026-04-13 |
 
 ---
 
@@ -91,5 +92,5 @@
 | Kadane's | 3 | ✅ |
 | Binary Search | 6 | ✅ |
 | Monotonic Stack | 5 | ✅ |
-| Trees (DFS) | 9 | 🔄 |
-| **Total** | **47** | |
+| Trees (DFS) | 10 | 🔄 |
+| **Total** | **48** | |
