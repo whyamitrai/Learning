@@ -1,0 +1,19 @@
+ha# Revision Sprint — April 2026
+
+> Random problems from all 48 solved. Pattern NOT given. Goal: identify pattern + solve independently.
+
+## Scoring
+| Score | Meaning | Next Action |
+|-------|---------|-------------|
+| ✅ Solo | Pattern + code sahi, no help | Locked — done |
+| ⚠️ Hint | Needed hint on pattern/approach, code khud | Retry in 3 days |
+| ❌ Guided | Major help needed | Retry next day |
+| 🔴 Blank | Nothing recalled | Retry same day after review |
+
+## Sprint Log
+
+| # | Date | Problem | My Pattern Guess | Correct? | Attempts | Score | Notes | Retry Date |
+|---|------|---------|-----------------|----------|----------|-------|-------|------------|
+| 1 | Apr 14 | Subarray Sum Equals K (LC 560) | Sliding Window | ❌ Wrong (Prefix Sum) | 3 | ❌ Guided | Missed: negative nums = no sliding window. COUNT = prefix sum. Forgot prefix sum approach entirely. | Apr 15 |
+| 2 | Apr 14 | Trapping Rain Water (LC 42) | Monotonic Stack | ✅ Correct | 4 | ⚠️ Hint | Pattern correct. Implementation issues: stack empty check, width calc, water formula. | Apr 17 |
+| 3 | Apr 14 | Koko Eating Bananas (LC 875) | No guess | ❌ Wrong (Binary Search on Answer) | 5 | ❌ Guided | Didn't identify BS on Answer. Confused lo/hi (piles vs speed). for loop issues. | Apr 15 |
