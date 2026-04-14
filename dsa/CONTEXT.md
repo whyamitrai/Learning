@@ -15,14 +15,14 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2026-04-13
-Current Pattern : Trees (DFS/BFS) — DONE
-Current Problem : Right Side View — DONE. Trees pattern complete.
-Problem Status  : ✅ Solved
+Last Updated    : 2026-04-14
+Current Pattern : REVISION SPRINT
+Current Problem : Sprint Day 1 done. 3 problems revised.
+Problem Status  : Sprint in progress
 Problems Solved : 48
-Next Step       : 2-3 day random revision sprint across all patterns
-Waiting For     : Next session start — revision sprint
-Notes           : Trees pattern complete (10 problems). Right Side View = BFS template + level[-1]. Pattern recognition working — solved in 2 min by reusing Level Order.
+Next Step       : Tomorrow — retry Subarray Sum Equals K + Koko (both ❌ Guided). Then more random problems.
+Waiting For     : Next session start
+Notes           : Revision sprint started. Results: Subarray Sum (❌ pattern wrong), Trapping Rain Water (⚠️ pattern correct, impl issues), Koko (❌ pattern missed). Prefix Sum and Binary Search on Answer are weak areas.
 ```
 
 ## 📅 Session Log
@@ -33,7 +33,8 @@ Notes           : Trees pattern complete (10 problems). Right Side View = BFS te
 | Apr 10 | Path Sum + LCA solved | 2 (Path Sum, LCA) | — | First time solving LCA, 4 combine cases learned |
 | Apr 11 | Level Order Traversal solved | 1 (Level Order) | — | First BFS problem, learned queue/deque |
 | Apr 12 | Revision + Validate BST | 1 (Validate BST) | Path Sum ✅, LCA ❌→✅, Level Order ✅ | LCA base case weak, fixed. BST — new concept |
-| Apr 13 | Revision + BST + Right Side View | 2 (BST, Right Side View) | LCA revised ❌→✅ | Trees pattern COMPLETE (10 problems). Right Side View done in 2 min — pattern recognition working. |
+| Apr 13 | Revision + BST + Right Side View | 2 (BST, Right Side View) | LCA revised ❌→✅ | Trees pattern COMPLETE (10 problems). |
+| Apr 14 | Revision Sprint Day 1 | 0 new | 3 revised: Subarray Sum ❌, Trapping Rain ⚠️, Koko ❌ | Prefix Sum + BS on Answer weak. Reading files rest of day. |
 
 ---
 
