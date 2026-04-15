@@ -15,14 +15,14 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2026-04-14
+Last Updated    : 2026-04-15
 Current Pattern : REVISION SPRINT
-Current Problem : Sprint Day 1 done. 3 problems revised.
+Current Problem : Sprint Day 2. Retries done — both ✅ Solo.
 Problem Status  : Sprint in progress
 Problems Solved : 48
-Next Step       : Tomorrow — retry Subarray Sum Equals K + Koko (both ❌ Guided). Then more random problems.
-Waiting For     : Next session start
-Notes           : Revision sprint started. Results: Subarray Sum (❌ pattern wrong), Trapping Rain Water (⚠️ pattern correct, impl issues), Koko (❌ pattern missed). Prefix Sum and Binary Search on Answer are weak areas.
+Next Step       : More random problems from sprint. Continue revision sprint.
+Waiting For     : Next problem
+Notes           : Subarray Sum retry ✅ Solo (pattern + code correct, {0:1} reasoning clear). Koko retry ✅ Solo (BS on Answer identified, minor return fix). Both weak areas from yesterday now solid.
 ```
 
 ## 📅 Session Log
@@ -35,6 +35,7 @@ Notes           : Revision sprint started. Results: Subarray Sum (❌ pattern wr
 | Apr 12 | Revision + Validate BST | 1 (Validate BST) | Path Sum ✅, LCA ❌→✅, Level Order ✅ | LCA base case weak, fixed. BST — new concept |
 | Apr 13 | Revision + BST + Right Side View | 2 (BST, Right Side View) | LCA revised ❌→✅ | Trees pattern COMPLETE (10 problems). |
 | Apr 14 | Revision Sprint Day 1 | 0 new | 3 revised: Subarray Sum ❌, Trapping Rain ⚠️, Koko ❌ | Prefix Sum + BS on Answer weak. Reading files rest of day. |
+| Apr 15 | Revision Sprint Day 2 — Retries | 0 new | 2 retries: Subarray Sum ✅ Solo, Koko ✅ Solo | Both weak areas from yesterday now solid. Pattern recognition improving. |
 
 ---
 

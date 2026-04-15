@@ -17,3 +17,5 @@ ha# Revision Sprint — April 2026
 | 1 | Apr 14 | Subarray Sum Equals K (LC 560) | Sliding Window | ❌ Wrong (Prefix Sum) | 3 | ❌ Guided | Missed: negative nums = no sliding window. COUNT = prefix sum. Forgot prefix sum approach entirely. | Apr 15 |
 | 2 | Apr 14 | Trapping Rain Water (LC 42) | Monotonic Stack | ✅ Correct | 4 | ⚠️ Hint | Pattern correct. Implementation issues: stack empty check, width calc, water formula. | Apr 17 |
 | 3 | Apr 14 | Koko Eating Bananas (LC 875) | No guess | ❌ Wrong (Binary Search on Answer) | 5 | ❌ Guided | Didn't identify BS on Answer. Confused lo/hi (piles vs speed). for loop issues. | Apr 15 |
+| 4 | Apr 15 | Subarray Sum Equals K (LC 560) — RETRY | Prefix Sum | ✅ Correct | 1 | ✅ Solo | Pattern sahi, code sahi, {0:1} reasoning clear. Big improvement from yesterday. | — |
+| 5 | Apr 15 | Koko Eating Bananas (LC 875) — RETRY | Binary Search on Answer | ✅ Correct | 1 | ✅ Solo | Pattern identified, lo/hi correct, ceil logic correct. Only minor fix: return low not mid. | — |
