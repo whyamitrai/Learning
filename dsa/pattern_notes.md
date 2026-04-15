@@ -527,9 +527,10 @@ When revising a problem, write this:
 Problem: [name]
 My pattern guess: [pattern]
 Why this pattern: [1-2 lines reasoning]
-Why NOT other patterns: [what I ruled out and why]
+Edge case / trap: [kya galat ho sakta hai ya kahan phasa tha pehle]
 Invariant: [what must always be true]
 Approach in 3 lines: [skeleton]
 ```
 
 This is what builds REAL pattern recognition — not solving, but REASONING about why.
+"Edge case / trap" forces you to think about WHERE things break — that's where real learning happens.

@@ -17,12 +17,12 @@
 ```
 Last Updated    : 2026-04-15
 Current Pattern : REVISION SPRINT
-Current Problem : Sprint Day 2. Retries done — both ✅ Solo.
+Current Problem : Sprint Day 2. 5 problems done today (2 retries + 3 new).
 Problem Status  : Sprint in progress
 Problems Solved : 48
-Next Step       : More random problems from sprint. Continue revision sprint.
-Waiting For     : Next problem
-Notes           : Subarray Sum retry ✅ Solo (pattern + code correct, {0:1} reasoning clear). Koko retry ✅ Solo (BS on Answer identified, minor return fix). Both weak areas from yesterday now solid.
+Next Step       : Continue sprint. Trapping Rain Water retry on Apr 17, Circular Subarray retry on Apr 18.
+Waiting For     : Next problem or session end
+Notes           : Subarray Sum retry ✅ Solo, Koko retry ✅ Solo. Remove Duplicates ✅ Solo. Circular Subarray ⚠️ Hint (circular trick + Kadane template forgotten). Kadane needs more revision.
 ```
 
 ## 📅 Session Log
@@ -35,7 +35,7 @@ Notes           : Subarray Sum retry ✅ Solo (pattern + code correct, {0:1} rea
 | Apr 12 | Revision + Validate BST | 1 (Validate BST) | Path Sum ✅, LCA ❌→✅, Level Order ✅ | LCA base case weak, fixed. BST — new concept |
 | Apr 13 | Revision + BST + Right Side View | 2 (BST, Right Side View) | LCA revised ❌→✅ | Trees pattern COMPLETE (10 problems). |
 | Apr 14 | Revision Sprint Day 1 | 0 new | 3 revised: Subarray Sum ❌, Trapping Rain ⚠️, Koko ❌ | Prefix Sum + BS on Answer weak. Reading files rest of day. |
-| Apr 15 | Revision Sprint Day 2 — Retries | 0 new | 2 retries: Subarray Sum ✅ Solo, Koko ✅ Solo | Both weak areas from yesterday now solid. Pattern recognition improving. |
+| Apr 15 | Revision Sprint Day 2 — Retries + New | 0 new | 5 revised: Subarray Sum ✅, Koko ✅, Remove Dup ✅, Circular Subarray ⚠️ | Kadane circular trick + template weak. Retries both Solo. |
 
 ---
 
