@@ -21,3 +21,4 @@ ha# Revision Sprint — April 2026
 | 5 | Apr 15 | Koko Eating Bananas (LC 875) — RETRY | Binary Search on Answer | ✅ Correct | 1 | ✅ Solo | Pattern identified, lo/hi correct, ceil logic correct. Only minor fix: return low not mid. | — |
 | 6 | Apr 15 | Remove Duplicates from Sorted Array (LC 26) | Two Pointers (slow-fast) | ✅ Correct | 1 | ✅ Solo | Instant pattern recognition. Clean code. Redundant fast=0 init, minor. | — |
 | 7 | Apr 15 | Maximum Sum Circular Subarray (LC 918) | Kadane's | ✅ Correct | 3 | ⚠️ Hint | Pattern sahi, but circular trick (total - min_kadane) yaad nahi tha. Kadane template bhi bhool gaya. Edge case (all negative) missed twice. | Apr 18 |
+| 8 | Apr 16 | Longest Substring Without Repeating (LC 3) | Sliding Window | ✅ Correct | 2 | ⚠️ Hint | Pattern + approach sahi. Impl issues: i vs right/left, shrink logic order, del syntax. | Apr 19 |
