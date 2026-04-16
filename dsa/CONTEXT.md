@@ -36,6 +36,7 @@ Notes           : Day 3: Longest Substring ⚠️, Diameter ⚠️, First Bad Ve
 | Apr 13 | Revision + BST + Right Side View | 2 (BST, Right Side View) | LCA revised ❌→✅ | Trees pattern COMPLETE (10 problems). |
 | Apr 14 | Revision Sprint Day 1 | 0 new | 3 revised: Subarray Sum ❌, Trapping Rain ⚠️, Koko ❌ | Prefix Sum + BS on Answer weak. Reading files rest of day. |
 | Apr 15 | Revision Sprint Day 2 — Retries + New | 0 new | 5 revised: Subarray Sum ✅, Koko ✅, Remove Dup ✅, Circular Subarray ⚠️ | Kadane circular trick + template weak. Retries both Solo. |
+| Apr 16 | Revision Sprint Day 3 (other PC) | 0 new | 3 revised: Longest Substring ⚠️, Diameter ⚠️, First Bad Version ⚠️ | All 3 patterns correct, implementation issues. Learned result=[0] trick. |
 
 ---
 
