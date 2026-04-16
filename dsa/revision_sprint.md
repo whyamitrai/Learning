@@ -22,3 +22,5 @@ ha# Revision Sprint — April 2026
 | 6 | Apr 15 | Remove Duplicates from Sorted Array (LC 26) | Two Pointers (slow-fast) | ✅ Correct | 1 | ✅ Solo | Instant pattern recognition. Clean code. Redundant fast=0 init, minor. | — |
 | 7 | Apr 15 | Maximum Sum Circular Subarray (LC 918) | Kadane's | ✅ Correct | 3 | ⚠️ Hint | Pattern sahi, but circular trick (total - min_kadane) yaad nahi tha. Kadane template bhi bhool gaya. Edge case (all negative) missed twice. | Apr 18 |
 | 8 | Apr 16 | Longest Substring Without Repeating (LC 3) | Sliding Window | ✅ Correct | 2 | ⚠️ Hint | Pattern + approach sahi. Impl issues: i vs right/left, shrink logic order, del syntax. | Apr 19 |
+| 9 | Apr 16 | Diameter of Binary Tree (LC 543) | Trees (DFS) | ✅ Correct | 4 | ⚠️ Hint | Pattern + global vs return sahi. Impl: node vs root, return height not diameter, result mutable list concept. | Apr 19 |
+| 10 | Apr 16 | First Bad Version (LC 278) | Binary Search | ✅ Correct | 2 | ⚠️ Hint | Pattern sahi. Direction initially ulta (True pe right vs left). Input n vs array confusion. | Apr 19 |
