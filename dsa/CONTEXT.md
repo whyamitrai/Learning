@@ -15,14 +15,14 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2026-04-16
+Last Updated    : 2026-04-18
 Current Pattern : REVISION SPRINT
-Current Problem : Sprint Day 3 done. 3 problems today.
+Current Problem : Sprint Day 4. 2 retries done today.
 Problem Status  : Sprint in progress
 Problems Solved : 48
-Next Step       : Trapping Rain Water retry Apr 17. Continue random problems. Circular Subarray retry Apr 18. Longest Substring, Diameter, First Bad Version retry Apr 19.
-Waiting For     : Next session start
-Notes           : Day 3: Longest Substring ⚠️, Diameter ⚠️, First Bad Version ⚠️. Pattern recognition improving — all 3 patterns correct today. Implementation still needs work. Learned: Python mutable vs immutable in closures (result = [0] trick).
+Next Step       : Continue with random problems today. Longest Substring, Diameter, First Bad Version retry Apr 19. Trapping Rain + Circular Subarray retry Apr 21.
+Waiting For     : Next problem
+Notes           : Day 4: Trapping Rain Water ⚠️ (improving, fewer issues), Circular Subarray ⚠️ (approach remembered, impl typos). Both still need clean implementation practice.
 ```
 
 ## 📅 Session Log
@@ -37,6 +37,7 @@ Notes           : Day 3: Longest Substring ⚠️, Diameter ⚠️, First Bad Ve
 | Apr 14 | Revision Sprint Day 1 | 0 new | 3 revised: Subarray Sum ❌, Trapping Rain ⚠️, Koko ❌ | Prefix Sum + BS on Answer weak. Reading files rest of day. |
 | Apr 15 | Revision Sprint Day 2 — Retries + New | 0 new | 5 revised: Subarray Sum ✅, Koko ✅, Remove Dup ✅, Circular Subarray ⚠️ | Kadane circular trick + template weak. Retries both Solo. |
 | Apr 16 | Revision Sprint Day 3 (other PC) | 0 new | 3 revised: Longest Substring ⚠️, Diameter ⚠️, First Bad Version ⚠️ | All 3 patterns correct, implementation issues. Learned result=[0] trick. |
+| Apr 18 | Revision Sprint Day 4 — Retries | 0 new | 2 retries: Trapping Rain Water ⚠️, Circular Subarray ⚠️ | Both approach remembered, impl still needs work. |
 
 ---
 
