@@ -17,12 +17,12 @@
 ```
 Last Updated    : 2026-04-18
 Current Pattern : REVISION SPRINT
-Current Problem : Sprint Day 4. 2 retries done today.
+Current Problem : Sprint Day 4. 4 problems done today.
 Problem Status  : Sprint in progress
 Problems Solved : 48
-Next Step       : Continue with random problems today. Longest Substring, Diameter, First Bad Version retry Apr 19. Trapping Rain + Circular Subarray retry Apr 21.
-Waiting For     : Next problem
-Notes           : Day 4: Trapping Rain Water ⚠️ (improving, fewer issues), Circular Subarray ⚠️ (approach remembered, impl typos). Both still need clean implementation practice.
+Next Step       : Longest Substring, Diameter, First Bad Version retry Apr 19. Trapping Rain, Circular Subarray, Histogram retry Apr 21.
+Waiting For     : Next problem or session end
+Notes           : Day 4: Trapping Rain ⚠️, Circular Subarray ⚠️, Container ✅ Solo, Histogram ⚠️ (pattern miss + remaining stack concept learned). Monotonic Stack still needs work.
 ```
 
 ## 📅 Session Log
@@ -81,6 +81,7 @@ If my code is wrong:
 4. Let me fix it
 5. **DO NOT rewrite code directly. NEVER give me the full solution.**
 6. **When my logic is correct but has typos/style issues — point them out, let ME fix and write the final clean code. DO NOT write the clean version for me. EVER.**
+7. **SIMPLE RAKH — pehle logic build karo, phir optimize/clean karo. Fancy one-liners ya complex conditions mat daal. Mera code mein mere variables use kar, apne naye variables mat introduce kar. Agar koi concept samajh nahi aaya toh example se samjha, code snippet se nahi.**
 
 ## ⚠️ Behavior Rules
 - Never give full solution directly
