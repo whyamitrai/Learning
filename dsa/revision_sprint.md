@@ -28,3 +28,8 @@ ha# Revision Sprint — April 2026
 | 12 | Apr 18 | Maximum Sum Circular Subarray (LC 918) — RETRY | Kadane's | ✅ Correct | 4 | ⚠️ Hint | Approach remembered (circular trick, edge case). Impl typos: duplicate var, wrong var name, total init, loop start. Still shaky on clean impl. | Apr 21 |
 | 13 | Apr 18 | Container With Most Water (LC 11) | Two Pointers (opposite ends) | ✅ Correct | 1 | ✅ Solo | Instant pattern, clean code. Width confusion (right-left vs +1) clarified. | — |
 | 14 | Apr 18 | Largest Rectangle in Histogram (LC 84) | Sliding Window | ❌ Wrong (Monotonic Stack) | 4 | ⚠️ Hint | Pattern miss — guessed sliding window. Remaining stack concept unclear initially, samjha after analogy. Variable name bug (height vs bar_height). | Apr 21 |
+| 15 | Apr 20 | Longest Substring Without Repeating (LC 3) — RETRY | Sliding Window | ✅ Correct | 1 | ✅ Solo | Pattern + code both clean. Set-based approach. Locked. | — |
+| 16 | Apr 20 | Diameter of Binary Tree (LC 543) — RETRY | Trees (DFS) | ✅ Correct | 1 | ✅ Solo | Global vs return perfect. dia=[0] trick remembered. Locked. | — |
+| 17 | Apr 20 | First Bad Version (LC 278) — RETRY | Binary Search | ✅ Correct | 1 | ✅ Solo | Direction correct this time. while left < right, hi=mid. Locked. | — |
+| 18 | Apr 20 | Permutation in String (LC 567) | Sliding Window (fixed) + Hashmap | ✅ Correct | 1 | ✅ Solo | Fixed window + freq match. Clean code. | — |
+| 19 | Apr 20 | Balanced Binary Tree (LC 110) | Trees (DFS) | ✅ Correct | 2 | ⚠️ Hint | -1 signal approach sahi. Missed: propagate -1 from children before abs check. | Apr 23 |

@@ -15,14 +15,14 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2026-04-18
+Last Updated    : 2026-04-20
 Current Pattern : REVISION SPRINT
-Current Problem : Sprint Day 4. 4 problems done today.
+Current Problem : Sprint Day 5. 3 overdue retries done — all ✅ Solo.
 Problem Status  : Sprint in progress
 Problems Solved : 48
-Next Step       : Longest Substring, Diameter, First Bad Version retry Apr 19. Trapping Rain, Circular Subarray, Histogram retry Apr 21.
+Next Step       : Continue with random problems. Trapping Rain, Circular Subarray, Histogram retry Apr 21.
 Waiting For     : Next problem or session end
-Notes           : Day 4: Trapping Rain ⚠️, Circular Subarray ⚠️, Container ✅ Solo, Histogram ⚠️ (pattern miss + remaining stack concept learned). Monotonic Stack still needs work.
+Notes           : Day 5: Longest Substring ✅ Solo (locked), Diameter ✅ Solo (locked), First Bad Version ✅ Solo (locked). All 3 overdue retries cleared cleanly.
 ```
 
 ## 📅 Session Log
@@ -37,7 +37,8 @@ Notes           : Day 4: Trapping Rain ⚠️, Circular Subarray ⚠️, Contain
 | Apr 14 | Revision Sprint Day 1 | 0 new | 3 revised: Subarray Sum ❌, Trapping Rain ⚠️, Koko ❌ | Prefix Sum + BS on Answer weak. Reading files rest of day. |
 | Apr 15 | Revision Sprint Day 2 — Retries + New | 0 new | 5 revised: Subarray Sum ✅, Koko ✅, Remove Dup ✅, Circular Subarray ⚠️ | Kadane circular trick + template weak. Retries both Solo. |
 | Apr 16 | Revision Sprint Day 3 (other PC) | 0 new | 3 revised: Longest Substring ⚠️, Diameter ⚠️, First Bad Version ⚠️ | All 3 patterns correct, implementation issues. Learned result=[0] trick. |
-| Apr 18 | Revision Sprint Day 4 — Retries | 0 new | 2 retries: Trapping Rain Water ⚠️, Circular Subarray ⚠️ | Both approach remembered, impl still needs work. |
+| Apr 18 | Revision Sprint Day 4 — Retries + New | 0 new | 4 revised: Trapping Rain ⚠️, Circular Subarray ⚠️, Container ✅, Histogram ⚠️ | Both approach remembered, impl still needs work. |
+| Apr 20 | Revision Sprint Day 5 — Overdue Retries | 0 new | 3 retries: Longest Substring ✅, Diameter ✅, First Bad Version ✅ | All 3 locked. Clean Solo on all. |
 
 ---
 
