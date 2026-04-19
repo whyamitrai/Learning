@@ -20,7 +20,7 @@ Current Pattern : REVISION SPRINT
 Current Problem : Sprint Day 5 done. 6 problems today.
 Problem Status  : Sprint in progress
 Problems Solved : 48
-Next Step       : Trapping Rain, Circular Subarray, Histogram retry Apr 21. Balanced Binary Tree retry Apr 23. Continue random problems.
+Next Step       : Trapping Rain, Circular Subarray, Histogram retry Apr 21. Koko retry Apr 23. Balanced Binary Tree retry Apr 23. Continue random problems.
 Waiting For     : Next session start
 Notes           : Day 5: 3 overdue retries all ✅ Solo (Longest Substring, Diameter, First Bad Version — locked). Permutation in String ✅ Solo, Container ✅ Solo (from Day 4). Balanced Binary Tree ⚠️ (-1 propagation missed). 12/48 unique problems revised, 8 locked.
 ```
