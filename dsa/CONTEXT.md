@@ -17,12 +17,12 @@
 ```
 Last Updated    : 2026-04-20
 Current Pattern : REVISION SPRINT
-Current Problem : Sprint Day 5. 3 overdue retries done — all ✅ Solo.
+Current Problem : Sprint Day 5 done. 6 problems today.
 Problem Status  : Sprint in progress
 Problems Solved : 48
-Next Step       : Continue with random problems. Trapping Rain, Circular Subarray, Histogram retry Apr 21.
-Waiting For     : Next problem or session end
-Notes           : Day 5: Longest Substring ✅ Solo (locked), Diameter ✅ Solo (locked), First Bad Version ✅ Solo (locked). All 3 overdue retries cleared cleanly.
+Next Step       : Trapping Rain, Circular Subarray, Histogram retry Apr 21. Balanced Binary Tree retry Apr 23. Continue random problems.
+Waiting For     : Next session start
+Notes           : Day 5: 3 overdue retries all ✅ Solo (Longest Substring, Diameter, First Bad Version — locked). Permutation in String ✅ Solo, Container ✅ Solo (from Day 4). Balanced Binary Tree ⚠️ (-1 propagation missed). 12/48 unique problems revised, 8 locked.
 ```
 
 ## 📅 Session Log
@@ -38,7 +38,7 @@ Notes           : Day 5: Longest Substring ✅ Solo (locked), Diameter ✅ Solo 
 | Apr 15 | Revision Sprint Day 2 — Retries + New | 0 new | 5 revised: Subarray Sum ✅, Koko ✅, Remove Dup ✅, Circular Subarray ⚠️ | Kadane circular trick + template weak. Retries both Solo. |
 | Apr 16 | Revision Sprint Day 3 (other PC) | 0 new | 3 revised: Longest Substring ⚠️, Diameter ⚠️, First Bad Version ⚠️ | All 3 patterns correct, implementation issues. Learned result=[0] trick. |
 | Apr 18 | Revision Sprint Day 4 — Retries + New | 0 new | 4 revised: Trapping Rain ⚠️, Circular Subarray ⚠️, Container ✅, Histogram ⚠️ | Both approach remembered, impl still needs work. |
-| Apr 20 | Revision Sprint Day 5 — Overdue Retries | 0 new | 3 retries: Longest Substring ✅, Diameter ✅, First Bad Version ✅ | All 3 locked. Clean Solo on all. |
+| Apr 20 | Revision Sprint Day 5 — Overdue Retries + New | 0 new | 6 revised: Longest Substring ✅, Diameter ✅, First Bad Version ✅, Permutation ✅, Balanced Tree ⚠️ | 3 overdue retries locked. 12/48 unique revised, 8 locked. |
 
 ---
 
