@@ -1,6 +1,7 @@
 # Terraform — Zero Se Samajh
 
-> Travel mein padhne ke liye. Assume: tujhe pata hai cloud kya hai (AWS), but Terraform practically nahi kiya.
+> Travel mein padhne ke liye. Assume: tujhe pata hai cloud kya hai (AWS), but Terraform deep mein nahi kiya.
+> Part of career/aiml_prep/ system. See MASTER_PLAN.md for full context.
 
 ---
 
@@ -392,3 +393,15 @@ resource "aws_instance" "servers" {
 
 **"State file mein conflict aaye toh?"**
 → Remote state S3 mein + DynamoDB locking. Ek time pe ek hi apply kar sakta hai. State file kabhi manually edit mat karo.
+
+---
+
+## Terraform + Tera IaC Generator Project
+
+Tera IaC Generator (LangGraph + Bedrock) GENERATES Terraform code. Interview mein ye connection explain kar:
+
+"I built a multi-agent GenAI system that takes architecture descriptions and generates production-ready Terraform. The generated code follows Terraform best practices — proper modules, variables, remote state configuration, and security groups. I understand Terraform deeply because I had to teach the AI to generate correct Terraform."
+
+**This is a powerful story** — you don't just USE Terraform, you built an AI that WRITES Terraform. That's a level above most candidates.
+
+**CI/CD connection:** See `08_cicd.md` for how Terraform fits into CI/CD pipelines (plan on PR, apply on merge).

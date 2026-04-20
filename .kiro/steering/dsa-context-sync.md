@@ -4,16 +4,14 @@ inclusion: always
 
 # DSA Context Sync Rule
 
-## CRITICAL — READ BEFORE EVERY ACTION
+## Before ANY action on dsa/ files:
+1. Read `dsa/CONTEXT.md` FIRST — check LIVE SESSION STATE
+2. ALWAYS get today's date from SYSTEM CONTEXT (the date provided in system prompt) — NEVER from training data, NEVER from conversation history, NEVER guess
+3. Compare `Last Updated` in CONTEXT.md with today's system date
+4. TRUST THE FILE over your memory — files sync via git across devices
 
-Before making ANY changes to files in the `dsa/` folder:
-
-1. **ALWAYS read `dsa/CONTEXT.md` FIRST** — check the LIVE SESSION STATE section
-2. **Compare the `Last Updated` date with today's date** — if different, this means changes were made on another device
-3. **NEVER overwrite data from other sessions** — if CONTEXT.md has newer data than what you remember from this conversation, TRUST THE FILE, not your memory
-4. **If you see unfamiliar entries in sprint log, session log, or revision files** — these are from another PC. Do NOT delete or overwrite them.
-5. **Always read the latest state of ALL dsa files before updating them** — never assume you know the current content
-6. **At the START of every new user message** — read `dsa/CONTEXT.md` and `dsa/revision_sprint.md` to confirm current state. Even if same session, always verify before proceeding.
-
-## Why This Exists
-User works on multiple PCs. Changes are synced via git. AI must respect changes made in other sessions on other devices. Previous sessions have lost data because AI overwrote newer changes with stale memory.
+## Do NOT:
+- Overwrite data from other sessions/devices
+- Delete unfamiliar entries (they're from another PC)
+- Assume you know file contents — always read before modifying
+- Use any date other than the one from system context

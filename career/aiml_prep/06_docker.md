@@ -1,6 +1,7 @@
 # Docker — Zero Se Samajh
 
-> Travel mein padhne ke liye. Assume: tujhe pata hai Docker kya hai (containers), but kaam nahi kiya hai practically.
+> Travel mein padhne ke liye. Assume: tujhe pata hai Docker kya hai (containers), but deep understanding nahi hai.
+> Part of career/aiml_prep/ system. See MASTER_PLAN.md for full context.
 
 ---
 
@@ -431,3 +432,18 @@ Production:   docker push → ECR → ECS/EC2 → users access karte hain
 
 **"Image optimize kaise karte ho?"**
 → Slim base images, layer caching (dependencies pehle copy), .dockerignore, multi-stage builds.
+
+---
+
+## Docker → Kubernetes Connection
+
+Docker = ek container run karna. But production mein 100 containers manage karne hain — scaling, healing, networking. That's where Kubernetes comes in.
+
+**Full details:** See `09_aws_cloud_services.md` → Kubernetes section.
+
+**Quick version for Docker interviews:**
+- Docker builds and runs containers
+- Kubernetes ORCHESTRATES containers at scale
+- AWS ECS = AWS-native orchestration (simpler)
+- AWS EKS = Kubernetes on AWS (industry standard)
+- Tera voice bot: Docker + ECS Fargate (serverless containers)

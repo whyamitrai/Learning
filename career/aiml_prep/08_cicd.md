@@ -1,6 +1,6 @@
 # CI/CD — Zero Se Samajh
 
-> Pehle Docker (File 07) aur Terraform (File 08) padh. Ye file assume karti hai wo concepts clear hain.
+> Pehle Docker (06_docker.md) aur Terraform (07_terraform.md) padh. Ye file assume karti hai wo concepts clear hain.
 
 ---
 
@@ -395,3 +395,27 @@ Agar `/health` respond nahi karta → pipeline FAIL → alert aata hai → tu fi
 
 **"Blue-green vs Canary?"**
 → Blue-green = do environments, traffic ek baar switch, instant rollback. Canary = gradually traffic shift (5% → 25% → 100%), safer but complex.
+
+---
+
+## Tera Production Setup Se Connection
+
+Tera demo solution: CloudFront + EC2 + DynamoDB + S3. Isme CI/CD add karna ho toh:
+
+```
+GitHub repo → Push to main
+    ↓
+GitHub Actions pipeline:
+    1. Run tests (pytest)
+    2. Build Docker image
+    3. Push to ECR
+    4. Deploy to EC2 (or ECS)
+    5. Health check
+    6. Done ✅
+```
+
+**Terraform part:** Infrastructure changes (new S3 bucket, new DynamoDB table) bhi CI/CD mein automate ho sakti hain — PR pe `terraform plan`, merge pe `terraform apply`.
+
+**Interview mein:** "My deployment pipeline runs on GitHub Actions. On push to main, it runs tests, builds a Docker image, pushes to ECR, and deploys to ECS. Infrastructure changes go through Terraform with plan-on-PR and apply-on-merge for safety."
+
+Even if you haven't set this up yet, understanding the flow is enough for 12-15L interviews. Building it for your GitHub projects will make it real.
