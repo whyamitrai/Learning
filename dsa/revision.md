@@ -1,53 +1,112 @@
-# DSA Revision System
+# DSA Revision Tracker
 
-## 🧠 Why This Exists
-Solve karo, aage badho, 2 hafte baad — blank. Normal hai.
-Fix: **Spaced Repetition** — increasing intervals pe revisit karo, short-term se permanent memory mein shift hoga.
+> Random problems from all solved. Pattern NOT given. Goal: identify pattern + solve independently.  
+> This is the single revision file — tracks all recall testing and retries.
 
-## 📅 Revision Cycle
+## Scoring System
 
-After solving any problem, it enters this cycle:
+Inspired by Anki's spaced repetition grading:
 
-| Review | When | What to do |
-|--------|------|------------|
-| R1 | Next day | Invariant + approach explain kar bina dekhe. Skeleton + code from memory. |
-| R2 | Day 3 | Full code from scratch. Dry run in head. |
-| R3 | Day 7 | Solve from scratch. Time yourself. |
-| R4 | Day 14 | Solve again. Clean → Locked ✅. Struggle → Reset to R1. |
-| R5 | Day 30 | Final dry run. Clean → Permanently Locked 🔒 |
+| Grade | Meaning |
+| --- | --- |
+| Easy | Pattern + code correct, no help needed |
+| Good | Approach correct, minor help on implementation |
+| Hard | Major help needed on pattern or approach |
+| Again | Nothing recalled, blank |
 
-## 🏷️ Status Tags
-- 🔴 **Weak** — couldn't recall approach, needs immediate re-solve
-- 🟡 **Shaky** — remembered idea but messed up implementation
-- 🟢 **Solid** — solved cleanly on revision
-- 🔒 **Locked** — passed R4/R5, permanently done
+## Retry Ladder (STRICT — AI MUST FOLLOW)
 
-## 📋 Revision Queue
+Each grade has a fixed retry ladder. Steps are retry counts with increasing  
+intervals. Problem is Locked ONLY when the LAST step is graded Easy.
 
-| # | Problem | Pattern | Solved On | R1 | R2 | R3 | R4 | R5 | Status |
-|---|---------|---------|-----------|----|----|----|----|----|----|
-| 1 | Balanced Binary Tree | Trees (DFS) — Boolean check (-1 signal) | 2025-04-07 | Apr 8 | Apr 10 | Apr 14 | Apr 21 | May 7 | 🔴 |
-| 2 | Path Sum | Trees (DFS) — Root-to-leaf sum check | 2025-04-10 | Apr 11 | Apr 13 | Apr 17 | Apr 24 | May 10 | 🔴 |
-| 3 | Lowest Common Ancestor | Trees (DFS) — LCA via left/right signals | 2025-04-10 | Apr 11 | Apr 13 | Apr 17 | Apr 24 | May 10 | 🔴 |
-| 4 | Binary Tree Level Order Traversal | Trees (BFS) — Queue, level grouping | 2025-04-11 | Apr 12 | Apr 14 | Apr 18 | Apr 25 | May 11 | 🔴 |
-| 5 | Validate BST | Trees (DFS) — Range (lower, upper) pass | 2026-04-13 | Apr 14 | Apr 16 | Apr 20 | Apr 27 | May 13 | 🔴 |
-| 6 | Binary Tree Right Side View | Trees (BFS) — Last of each level | 2026-04-13 | Apr 14 | Apr 16 | Apr 20 | Apr 27 | May 13 | 🔴 |
+Grade at each retry is decided FRESH — it does NOT auto-promote.  
+Example: Hard problem, retry 1 gets Easy, retry 2 could still get Hard.  
+Each retry is an independent test.
 
-*(New problems get added here as we solve them)*
+**Hard (5 retries before lock):**
 
-## 🔄 Daily Routine
+1.  Retry next day
+2.  Retry in 3 days
+3.  Retry in 7 days
+4.  Retry in 14 days
+5.  Final — Easy = Locked
 
-**Before starting a new problem:**
-1. Check this table — do any reviews due today
-2. For each: explain invariant → write skeleton → code if needed
-3. Update the table with ✅ or ❌ for that review column
-4. If ❌ on any review → reset back to R1
+**Good (3 retries before lock):**
 
-**Weekend (30 min):**
-- Scan 5 older problems — just invariant + skeleton in head
-- Anything fuzzy → add back to queue
+1.  Retry in 3 days
+2.  Retry in 7 days
+3.  Final at 14 days — Easy = Locked
 
-## 💡 Rules
-- Don't re-read code. Explain the WHY.
-- If you can teach it, you know it.
-- Goal isn't "I remember the code" — it's "I can derive the solution from the pattern."
+**Easy (1 final check):**
+
+1.  Final check after 14 days — Easy = Locked
+
+**Again (same as Hard but starts same day):**
+
+1.  Retry same day after review
+2.  Then follows Hard ladder from step 1
+
+**What happens if retry grade is NOT Easy at any step:**
+
+*   Grade is Easy → move to next step in current ladder
+*   Grade is Good at final step → add 1 more retry in 7 days
+*   Grade is Hard at any step → reset to Hard ladder step 1
+*   Grade is Again at any step → reset to Again flow (same day retry)
+
+**Lock condition:** ONLY the LAST step graded Easy = Locked. No exceptions.
+
+**AI RULES:**
+
+*   ALWAYS check system date before setting retry dates
+*   ALWAYS calculate retry date from today's date (system context)
+*   NEVER write "Overdue" — always write actual dates
+*   If calculated retry date is in the past, set retry to next session date (tomorrow or next available)
+*   NEVER lock a problem unless last retry is Easy
+*   ALWAYS update progress.md (Status, Step, Next Retry columns) after every problem
+*   Retry date = date of current session + interval days for next step
+
+## Session Approach
+
+**Each session priority order:**
+
+1.  Overdue retries first (always highest priority)
+2.  Due-today retries
+3.  New random problems from untested pool (48 total, test all once)
+4.  Once all 48 tested at least once — start next pattern (Linked List)
+5.  New pattern problems also enter revision cycle after solving
+
+**Missed days policy:**
+
+*   Overdue retries accumulate — this is normal, no penalty
+*   Next session: do all overdue retries first
+*   If 5+ overdue: only do overdue that session, skip new random
+*   If 10+ overdue (long gap): max 5 overdue per session, clear backlog over multiple sessions
+*   Retry dates stay as original — AI checks which dates are before today to find overdue
+*   New random problems resume only after overdue backlog is cleared
+
+## Revision Log
+
+Full history of every attempt. Append-only — never delete rows.
+
+| # | Date | Problem | Pattern Guess | Correct? | Attempts | Grade | Notes | Retry |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Apr 14 | Subarray Sum Equals K (LC 560) | Sliding Window | Wrong (Prefix Sum) | 3 | Hard | Missed: negative nums = no sliding window. COUNT = prefix sum. Forgot prefix sum approach entirely. | Apr 15 |
+| 2 | Apr 14 | Trapping Rain Water (LC 42) | Monotonic Stack | Correct | 4 | Good | Pattern correct. Implementation issues: stack empty check, width calc, water formula. | Apr 17 |
+| 3 | Apr 14 | Koko Eating Bananas (LC 875) | No guess | Wrong (Binary Search on Answer) | 5 | Hard | Didn't identify BS on Answer. Confused lo/hi (piles vs speed). for loop issues. | Apr 15 |
+| 4 | Apr 15 | Subarray Sum Equals K (LC 560) — RETRY | Prefix Sum | Correct | 1 | Easy | Pattern sahi, code sahi, {0:1} reasoning clear. Big improvement from yesterday. | Apr 21 |
+| 5 | Apr 15 | Koko Eating Bananas (LC 875) — RETRY | Binary Search on Answer | Correct | 1 | Easy | Pattern identified, lo/hi correct, ceil logic correct. Only minor fix: return low not mid. | Apr 21 |
+| 6 | Apr 15 | Remove Duplicates from Sorted Array (LC 26) | Two Pointers (slow-fast) | Correct | 1 | Easy | Instant pattern recognition. Clean code. | Apr 29 |
+| 7 | Apr 15 | Maximum Sum Circular Subarray (LC 918) | Kadane's | Correct | 3 | Good | Pattern sahi, but circular trick (total - min\_kadane) yaad nahi tha. Kadane template bhi bhool gaya. Edge case (all negative) missed twice. | Apr 18 |
+| 8 | Apr 16 | Longest Substring Without Repeating (LC 3) | Sliding Window | Correct | 2 | Good | Pattern + approach sahi. Impl issues: i vs right/left, shrink logic order, del syntax. | Apr 19 |
+| 9 | Apr 16 | Diameter of Binary Tree (LC 543) | Trees (DFS) | Correct | 4 | Good | Pattern + global vs return sahi. Impl: node vs root, return height not diameter, result mutable list concept. | Apr 19 |
+| 10 | Apr 16 | First Bad Version (LC 278) | Binary Search | Correct | 2 | Good | Pattern sahi. Direction initially ulta (True pe right vs left). Input n vs array confusion. | Apr 19 |
+| 11 | Apr 18 | Trapping Rain Water (LC 42) — RETRY | Monotonic Stack | Correct | 3 | Good | Pattern sahi. Impl issues: variable overwrite (height), stack\[-1\] vs stack\[i\], empty check, append missing, += vs =. Improving from Apr 14. | Apr 25 |
+| 12 | Apr 18 | Maximum Sum Circular Subarray (LC 918) — RETRY | Kadane's | Correct | 4 | Good | Approach remembered (circular trick, edge case). Impl typos: duplicate var, wrong var name, total init, loop start. Still shaky on clean impl. | Apr 25 |
+| 13 | Apr 18 | Container With Most Water (LC 11) | Two Pointers (opposite ends) | Correct | 1 | Easy | Instant pattern, clean code. Width confusion (right-left vs +1) clarified. | May 2 |
+| 14 | Apr 18 | Largest Rectangle in Histogram (LC 84) | Sliding Window | Wrong (Monotonic Stack) | 4 | Good | Pattern miss — guessed sliding window. Remaining stack concept unclear initially, samjha after analogy. Variable name bug (height vs bar\_height). | Apr 21 |
+| 15 | Apr 20 | Longest Substring Without Repeating (LC 3) — RETRY | Sliding Window | Correct | 1 | Easy | Pattern + code both clean. Set-based approach. | Apr 27 |
+| 16 | Apr 20 | Diameter of Binary Tree (LC 543) — RETRY | Trees (DFS) | Correct | 1 | Easy | Global vs return perfect. dia=\[0\] trick remembered. | Apr 27 |
+| 17 | Apr 20 | First Bad Version (LC 278) — RETRY | Binary Search | Correct | 1 | Easy | Direction correct this time. while left \< right, hi=mid. | Apr 27 |
+| 18 | Apr 20 | Permutation in String (LC 567) | Sliding Window (fixed) + Hashmap | Correct | 1 | Easy | Fixed window + freq match. Clean code. | May 4 |
+| 19 | Apr 20 | Balanced Binary Tree (LC 110) | Trees (DFS) | Correct | 2 | Good | \-1 signal approach sahi. Missed: propagate -1 from children before abs check. | Apr 23 |
+| 20 | Apr 20 | Validate BST (LC 98) | Trees (DFS) | Correct | 3 | Easy | Range-based approach sahi. Base case (True not False), return missing, strict inequality — all structural, logic was correct. | May 4 |

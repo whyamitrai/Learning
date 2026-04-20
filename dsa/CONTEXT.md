@@ -10,51 +10,51 @@
 
 ---
 
-## 📡 LIVE SESSION STATE
+## LIVE SESSION STATE
 > **UPDATE THIS SECTION AFTER EVERY SESSION / PROBLEM**
 > This is what makes cross-device sync work. Push after every session.
 
 ```
 Last Updated    : 2026-04-20
-Current Pattern : REVISION SPRINT
-Current Problem : Sprint Day 5 done. 6 problems today.
-Problem Status  : Sprint in progress
+Current Pattern : REVISION
+Current Problem : Validate BST — Easy. Revision continued.
+Problem Status  : Revision in progress
 Problems Solved : 48
-Next Step       : Trapping Rain, Circular Subarray, Histogram retry Apr 21. Koko retry Apr 23. Balanced Binary Tree retry Apr 23. Continue random problems.
-Waiting For     : Next session start
-Notes           : Day 5: 3 overdue retries all ✅ Solo (Longest Substring, Diameter, First Bad Version — locked). Permutation in String ✅ Solo, Container ✅ Solo (from Day 4). Balanced Binary Tree ⚠️ (-1 propagation missed). 12/48 unique problems revised, 8 locked.
+Next Step       : Subarray Sum, Koko, Histogram retry Apr 21. Balanced Binary Tree retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Continue random problems.
+Waiting For     : Next problem
+Notes           : 13/48 unique problems tested, 0 locked. Retry ladder system (Hard=5, Good=3, Easy=1 final). progress.md is source of truth for all problem status.
 ```
 
-## 📅 Session Log
+## Session Log
 > Track what happened each day. Helps AI know if same day or next day, and if we're on track.
 
 | Date | What Happened | New Problems | Revision Done | Notes |
 |------|--------------|-------------|---------------|-------|
 | Apr 10 | Path Sum + LCA solved | 2 (Path Sum, LCA) | — | First time solving LCA, 4 combine cases learned |
 | Apr 11 | Level Order Traversal solved | 1 (Level Order) | — | First BFS problem, learned queue/deque |
-| Apr 12 | Revision + Validate BST | 1 (Validate BST) | Path Sum ✅, LCA ❌→✅, Level Order ✅ | LCA base case weak, fixed. BST — new concept |
-| Apr 13 | Revision + BST + Right Side View | 2 (BST, Right Side View) | LCA revised ❌→✅ | Trees pattern COMPLETE (10 problems). |
-| Apr 14 | Revision Sprint Day 1 | 0 new | 3 revised: Subarray Sum ❌, Trapping Rain ⚠️, Koko ❌ | Prefix Sum + BS on Answer weak. Reading files rest of day. |
-| Apr 15 | Revision Sprint Day 2 — Retries + New | 0 new | 5 revised: Subarray Sum ✅, Koko ✅, Remove Dup ✅, Circular Subarray ⚠️ | Kadane circular trick + template weak. Retries both Solo. |
-| Apr 16 | Revision Sprint Day 3 (other PC) | 0 new | 3 revised: Longest Substring ⚠️, Diameter ⚠️, First Bad Version ⚠️ | All 3 patterns correct, implementation issues. Learned result=[0] trick. |
-| Apr 18 | Revision Sprint Day 4 — Retries + New | 0 new | 4 revised: Trapping Rain ⚠️, Circular Subarray ⚠️, Container ✅, Histogram ⚠️ | Both approach remembered, impl still needs work. |
-| Apr 20 | Revision Sprint Day 5 — Overdue Retries + New | 0 new | 6 revised: Longest Substring ✅, Diameter ✅, First Bad Version ✅, Permutation ✅, Balanced Tree ⚠️ | 3 overdue retries locked. 12/48 unique revised, 8 locked. |
+| Apr 12 | Revision + Validate BST | 1 (Validate BST) | Path Sum done, LCA retry done, Level Order done | LCA base case weak, fixed. BST — new concept |
+| Apr 13 | Revision + BST + Right Side View | 2 (BST, Right Side View) | LCA revised done | Trees pattern COMPLETE (10 problems). |
+| Apr 14 | Revision Day 1 | 0 new | 3 revised: Subarray Sum Hard, Trapping Rain Good, Koko Hard | Prefix Sum + BS on Answer weak. Reading files rest of day. |
+| Apr 15 | Revision Day 2 — Retries + New | 0 new | 5 revised: Subarray Sum Easy, Koko Easy, Remove Dup Easy, Circular Subarray Good | Kadane circular trick + template weak. Retries both Easy. |
+| Apr 16 | Revision Day 3 (other PC) | 0 new | 3 revised: Longest Substring Good, Diameter Good, First Bad Version Good | All 3 patterns correct, implementation issues. Learned result=[0] trick. |
+| Apr 18 | Revision Day 4 — Retries + New | 0 new | 4 revised: Trapping Rain Good, Circular Subarray Good, Container Easy, Histogram Good | Both approach remembered, impl still needs work. |
+| Apr 20 | Revision Day 5 — Retries + New | 0 new | 7 revised: Longest Substring Easy, Diameter Easy, First Bad Version Easy, Permutation Easy, Balanced Tree Good, Validate BST Easy | Files restructured. 13/48 unique tested, 0 locked. |
 
 ---
 
-## 🎯 Goal
+## Goal
 - Master DSA patterns, NOT memorize problems
 - Build strong intuition — solve unseen problems by recognizing patterns
 - Think in terms of subproblems and invariants
 - Target: 80-100 problems covering all major patterns
 
-## 👨‍💻 Background
+## Background
 - Comfortable in Python
 - Beginner in DSA (started Jan 2025)
 - Weak in recursion (improving — currently doing Trees)
 - Working professional, limited time — quality over quantity
 
-## 🧠 Learning Style (STRICT)
+## Learning Style (STRICT)
 - Explain in Hinglish
 - Focus on intuition + invariant + reasoning
 - Avoid bookish definitions
@@ -62,7 +62,7 @@ Notes           : Day 5: 3 overdue retries all ✅ Solo (Longest Substring, Diam
 - Break concepts into small steps
 - DO NOT jump directly to code
 
-## 🔥 Core Rule (STRICT FLOW)
+## Core Rule (STRICT FLOW)
 Every problem MUST follow this order:
 1. **Intuition** — what is the problem really asking? why this pattern?
 2. **Invariant** — what must always be true?
@@ -74,7 +74,7 @@ Every problem MUST follow this order:
 
 NO skipping steps. Ever.
 
-## 🛠 Debug Rules
+## Debug Rules
 If my code is wrong:
 1. Identify which invariant broke
 2. Explain WHY it broke
@@ -84,7 +84,7 @@ If my code is wrong:
 6. **When my logic is correct but has typos/style issues — point them out, let ME fix and write the final clean code. DO NOT write the clean version for me. EVER.**
 7. **SIMPLE RAKH — pehle logic build karo, phir optimize/clean karo. Fancy one-liners ya complex conditions mat daal. Mera code mein mere variables use kar, apne naye variables mat introduce kar. Agar koi concept samajh nahi aaya toh example se samjha, code snippet se nahi.**
 
-## ⚠️ Behavior Rules
+## Behavior Rules
 - Never give full solution directly
 - Always guide step-by-step
 - Focus on thinking, not coding
@@ -92,7 +92,7 @@ If my code is wrong:
 - Correct me bluntly if wrong — say "This is wrong because..."
 - After every problem: update progress.md, revision.md, and LIVE SESSION STATE above
 
-## 🧠 Key Insights I've Built So Far
+## Key Insights I've Built So Far
 - "Har node ek mini problem hai"
 - "Return value ka meaning fix hona chahiye"
 - "Height = best downward path"
@@ -101,14 +101,18 @@ If my code is wrong:
 - Tree = recursive structure, every node = subtree root
 - Difference between: height vs diameter, return vs global, node vs node's answer
 
-## 🗺️ Upcoming Plan
-Trees progression after Balanced Binary Tree:
-- Path Sum
-- Lowest Common Ancestor
-- Binary Tree Level Order Traversal (BFS intro)
-- Advanced DFS patterns
+## Upcoming Plan
 
-After Trees:
+**Current phase: Revision of all 48 solved problems**
+- Test all 48 problems at least once (13/48 done)
+- Revision cycle continues in background (retries on schedule)
+- Once all 48 tested — start next pattern (Linked List)
+- New problems also enter revision cycle after solving
+
+**Missed days:** Overdue retries accumulate, no penalty. Next session: overdue first.
+If 5+ overdue: only overdue that day. If 10+: max 5 per session.
+
+**After revision phase — next patterns:**
 - Linked List
 - Stack/Queue (beyond monotonic)
 - Heap / Priority Queue
@@ -116,33 +120,33 @@ After Trees:
 - Dynamic Programming
 - Backtracking
 
-## 📂 File Structure
+## File Structure
 ```
 dsa/
-├── CONTEXT.md       ← THIS FILE. Session state + all rules. Read FIRST.
-├── progress.md      ← All solved problems by pattern with dates
-├── revision.md      ← Spaced repetition tracker (R1-R5 cycle)
-└── pattern_notes.md ← Pattern recognition: analogy + MUST HAVE + templates
+  CONTEXT.md       -- THIS FILE. Session state + all rules. Read FIRST.
+  progress.md      -- All problems by pattern + revision status, step, next retry date
+  revision.md      -- Revision rules (retry ladder, scoring) + attempt history log
+  pattern_notes.md -- Pattern recognition: analogy + MUST HAVE + templates
 
 career/genai_learning/
-├── 00_career_strategy.md       ← Where to apply, messages, daily routine
-├── 01_genai_foundations.md      ← LLM, tokens, embeddings, prompting
-├── 02_langchain_and_orchestration.md ← LangChain, RAG, agents, vector DBs
-├── 03_ml_fundamentals.md       ← ML basics — zero se, beginner-friendly
-├── 04_system_design_and_interviews.md ← System design, STAR answers, negotiation
-├── 05_github_project_plan.md   ← Projects to build for GitHub
-├── 06_docker.md                ← Docker — zero se samajh
-├── 07_terraform.md             ← Terraform — zero se samajh
-├── 08_cicd.md                  ← CI/CD — zero se (Docker + Terraform pehle padh)
-├── flashcards.md               ← Active recall cards (GenAI + ML + interviews)
-└── my_understanding.md         ← Personal doubts & answers
+  00_career_strategy.md       -- Where to apply, messages, daily routine
+  01_genai_foundations.md      -- LLM, tokens, embeddings, prompting
+  02_langchain_and_orchestration.md -- LangChain, RAG, agents, vector DBs
+  03_ml_fundamentals.md       -- ML basics, beginner-friendly
+  04_system_design_and_interviews.md -- System design, STAR answers, negotiation
+  05_github_project_plan.md   -- Projects to build for GitHub
+  06_docker.md                -- Docker basics
+  07_terraform.md             -- Terraform basics
+  08_cicd.md                  -- CI/CD (Docker + Terraform pehle padh)
+  flashcards.md               -- Active recall cards (GenAI + ML + interviews)
+  my_understanding.md         -- Personal doubts & answers
 
-Reading order for DevOps: 06 (Docker) → 07 (Terraform) → 08 (CI/CD)
+Reading order for DevOps: 06 (Docker) > 07 (Terraform) > 08 (CI/CD)
 ```
 
-## 🎯 Two-Phase Plan
+## Two-Phase Plan
 **Phase 1 (Next 2 months): Get 10-12L offer**
-- DSA: Finish trees → graphs → basic DP → heap → target 80-100 problems
+- DSA: Finish trees > graphs > basic DP > heap > target 80-100 problems
 - GenAI + ML: Flashcard review daily (10 cards/day) — covers Files 01, 02, 03, 04
 - ML concepts at CONCEPT level (explain transformers, overfitting, evaluation — not hands-on)
 - Interview: STAR stories ready (File 04), salary negotiation script ready
@@ -155,17 +159,19 @@ Reading order for DevOps: 06 (Docker) → 07 (Terraform) → 08 (CI/CD)
 - System design: Practice designing at scale
 - Projects: All 3 GitHub projects done
 
-## 📊 Tracking Rules
-- After every problem: update progress.md with date
-- After every problem: update revision.md with R1-R5 schedule
+## Tracking Rules
+- After every problem: update progress.md — Status, Step, Next Retry columns + Summary table counts
+- After every problem: append new row to revision.md Revision Log
+- After every problem: calculate retry date using the retry ladder (Hard=5 steps, Good=3 steps, Easy=1 final check)
+- NEVER mark a problem as Locked unless the LAST retry is graded Easy
 - After every session: update LIVE SESSION STATE at top of this file
 - At end of a pattern: show full updated summary
-- **CROSS-DEVICE WORKFLOW:** Update files → git push → other laptop → git pull → tell AI "read dsa/CONTEXT.md" → continue
+- **CROSS-DEVICE WORKFLOW:** Update files > git push > other laptop > git pull > tell AI "read dsa/CONTEXT.md" > continue
 
-## 🔄 How To Resume On Any Device
+## How To Resume On Any Device
 1. `git pull`
 2. Open chat with AI
 3. Say: "read dsa/CONTEXT.md and continue from where we left off"
-4. AI reads LIVE SESSION STATE → knows exactly where you are
+4. AI reads LIVE SESSION STATE > knows exactly where you are
 5. Continue solving
-6. When done: AI updates files → you `git push`
+6. When done: AI updates files > you `git push`
