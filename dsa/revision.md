@@ -1,7 +1,8 @@
-# DSA Revision Tracker
+# DSA Revision Rules and History
 
-> Random problems from all solved. Pattern NOT given. Goal: identify pattern + solve independently.  
-> This is the single revision file — tracks all recall testing and retries.
+> Revision rules (scoring, retry ladder, session approach) and attempt history.  
+> Current problem status (Status, Step, Next Retry) is tracked in progress.md.  
+> This file contains HOW to revise and WHAT happened in past attempts.
 
 ## Scoring System
 
@@ -110,3 +111,4 @@ Full history of every attempt. Append-only — never delete rows.
 | 18 | Apr 20 | Permutation in String (LC 567) | Sliding Window (fixed) + Hashmap | Correct | 1 | Easy | Fixed window + freq match. Clean code. | May 4 |
 | 19 | Apr 20 | Balanced Binary Tree (LC 110) | Trees (DFS) | Correct | 2 | Good | \-1 signal approach sahi. Missed: propagate -1 from children before abs check. | Apr 23 |
 | 20 | Apr 20 | Validate BST (LC 98) | Trees (DFS) | Correct | 3 | Easy | Range-based approach sahi. Base case (True not False), return missing, strict inequality — all structural, logic was correct. | May 4 |
+| 21 | Apr 20 | Binary Subarrays With Sum (LC 930) | Sliding Window | Wrong (Prefix Sum) | 1 | Good | Pattern miss — guessed sliding window (same trap as Subarray Sum). After hint, prefix sum + hashmap approach recalled correctly. Code clean. | Apr 23 |

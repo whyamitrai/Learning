@@ -17,12 +17,12 @@
 ```
 Last Updated    : 2026-04-20
 Current Pattern : REVISION
-Current Problem : Validate BST — Easy. Revision continued.
+Current Problem : Binary Subarrays With Sum — Good.
 Problem Status  : Revision in progress
 Problems Solved : 48
-Next Step       : Subarray Sum, Koko, Histogram retry Apr 21. Balanced Binary Tree retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Continue random problems.
+Next Step       : Subarray Sum, Koko, Histogram retry Apr 21. Balanced Binary Tree, Binary Subarrays retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Continue random problems.
 Waiting For     : Next problem
-Notes           : 13/48 unique problems tested, 0 locked. Retry ladder system (Hard=5, Good=3, Easy=1 final). progress.md is source of truth for all problem status.
+Notes           : 14/48 unique problems tested, 0 locked. Binary Subarrays — pattern miss (sliding window), prefix sum after hint.
 ```
 
 ## Session Log
@@ -90,7 +90,7 @@ If my code is wrong:
 - Focus on thinking, not coding
 - Push me if I'm vague
 - Correct me bluntly if wrong — say "This is wrong because..."
-- After every problem: update progress.md, revision.md, and LIVE SESSION STATE above
+- After every problem: update progress.md, revision.md, pattern_notes.md (if relevant), and LIVE SESSION STATE above
 
 ## Key Insights I've Built So Far
 - "Har node ek mini problem hai"
@@ -125,8 +125,8 @@ If 5+ overdue: only overdue that day. If 10+: max 5 per session.
 dsa/
   CONTEXT.md       -- THIS FILE. Session state + all rules. Read FIRST.
   progress.md      -- All problems by pattern + revision status, step, next retry date
-  revision.md      -- Revision rules (retry ladder, scoring) + attempt history log
-  pattern_notes.md -- Pattern recognition: analogy + MUST HAVE + templates
+  revision.md      -- Revision rules (scoring, retry ladder, session approach) + attempt history log
+  pattern_notes.md -- Pattern recognition guide + common mistakes + templates in my code style
 
 career/genai_learning/
   00_career_strategy.md       -- Where to apply, messages, daily routine
@@ -162,6 +162,7 @@ Reading order for DevOps: 06 (Docker) > 07 (Terraform) > 08 (CI/CD)
 ## Tracking Rules
 - After every problem: update progress.md — Status, Step, Next Retry columns + Summary table counts
 - After every problem: append new row to revision.md Revision Log
+- After every problem: update pattern_notes.md if there's a new common mistake or template improvement (don't force — only if useful data exists)
 - After every problem: calculate retry date using the retry ladder (Hard=5 steps, Good=3 steps, Easy=1 final check)
 - NEVER mark a problem as Locked unless the LAST retry is graded Easy
 - After every session: update LIVE SESSION STATE at top of this file
