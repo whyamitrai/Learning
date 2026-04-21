@@ -41,7 +41,7 @@
 
 | # | Problem | Variant | Status | Step | Next Retry |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Subarray Sum Equals K | Prefix + Hashmap (Count) | Retry | Hard-2 pending | Apr 21 |
+| 1 | Subarray Sum Equals K | Prefix + Hashmap (Count) | Retry | Hard-3 pending | Apr 28 |
 | 2 | Continuous Subarray Sum | Prefix + Hashmap (Modulo, Boolean) | New | — | — |
 | 3 | Subarray Sums Divisible by K | Prefix + Hashmap (Modulo, Count) | New | — | — |
 | 4 | Binary Subarrays With Sum | Prefix + Hashmap (Exact Sum, Count) | Retry | Good-1 pending | Apr 23 |
@@ -62,7 +62,7 @@
 | 1 | Binary Search (LC 704) | Exact match | New | — | — |
 | 2 | Guess Number Higher or Lower | Hidden space | New | — | — |
 | 3 | First Bad Version | Boundary / First True | Retry | Good-2 pending | Apr 27 |
-| 4 | Koko Eating Bananas | Binary Search on Answer (Min Feasible) | Retry | Hard-2 pending | Apr 21 |
+| 4 | Koko Eating Bananas | Binary Search on Answer (Min Feasible) | Retry | Hard-3 pending | Apr 28 |
 | 5 | Capacity To Ship Packages | Binary Search on Answer | New | — | — |
 | 6 | Split Array Largest Sum | Binary Search on Answer | New | — | — |
 
@@ -73,7 +73,7 @@
 | 1 | Next Greater Element I | Next greater (right) | New | — | — |
 | 2 | Daily Temperatures | Next greater (right, index diff) | New | — | — |
 | 3 | Next Greater Element II | Circular next greater | New | — | — |
-| 4 | Largest Rectangle in Histogram | Span-based (left+right boundary) | Retry | Good-1 pending | Apr 21 |
+| 4 | Largest Rectangle in Histogram | Span-based (left+right boundary) | Retry | Hard-1 pending | Apr 22 |
 | 5 | Trapping Rain Water | Min(maxLeft, maxRight) - height | Retry | Good-2 pending | Apr 25 |
 
 ## Trees — DFS + BFS (10 problems)

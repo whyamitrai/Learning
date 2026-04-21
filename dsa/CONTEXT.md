@@ -15,14 +15,14 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2026-04-20
+Last Updated    : 2026-04-21
 Current Pattern : REVISION
-Current Problem : Binary Subarrays With Sum — Good. Session wrapped.
+Current Problem : Largest Rectangle in Histogram — Hard. Session done.
 Problem Status  : Revision in progress
 Problems Solved : 48
-Next Step       : Subarray Sum, Koko, Histogram retry Apr 21. Balanced Binary Tree, Binary Subarrays retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Continue random problems.
+Next Step       : Histogram retry Apr 22. Balanced Binary Tree, Binary Subarrays retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko retry Apr 28. Continue random problems.
 Waiting For     : Next session start
-Notes           : 14/48 unique problems tested, 0 locked. System restructured today — files consolidated, Anki grading, retry ladder, pattern_notes cleaned. Git push karo before switching PC.
+Notes           : 14/48 unique problems tested, 0 locked. Subarray Sum Easy, Koko Easy, Histogram Hard. Two new rules added to Behavior Rules (no past hints on retry, template check after every problem). 3 templates updated in pattern_notes.md.
 ```
 
 ## Session Log
@@ -39,6 +39,7 @@ Notes           : 14/48 unique problems tested, 0 locked. System restructured to
 | Apr 16 | Revision Day 3 (other PC) | 0 new | 3 revised: Longest Substring Good, Diameter Good, First Bad Version Good | All 3 patterns correct, implementation issues. Learned result=[0] trick. |
 | Apr 18 | Revision Day 4 — Retries + New | 0 new | 4 revised: Trapping Rain Good, Circular Subarray Good, Container Easy, Histogram Good | Both approach remembered, impl still needs work. |
 | Apr 20 | Revision Day 5 — Retries + New | 0 new | 7 revised: Longest Substring Easy, Diameter Easy, First Bad Version Easy, Permutation Easy, Balanced Tree Good, Validate BST Easy | Files restructured. 13/48 unique tested, 0 locked. |
+| Apr 21 | Revision Day 6 — Retries | 0 new | 3 revised: Subarray Sum Easy, Koko Easy, Histogram Hard | Histogram width formula struggle. 2 new behavior rules added. 3 templates updated. 14/48 tested (no new problems today). |
 
 ---
 
@@ -91,6 +92,8 @@ If my code is wrong:
 - Push me if I'm vague
 - Correct me bluntly if wrong — say "This is wrong because..."
 - After every problem: update progress.md, revision.md, pattern_notes.md (if relevant), and LIVE SESSION STATE above
+- **REVISION RULE (STRICT): When presenting a retry problem, NEVER mention past mistakes, past grades, or what went wrong last time. Just say the problem name and "bata kya yaad hai". The whole point of revision is independent recall — hints about past errors defeat the purpose.**
+- **TEMPLATE CHECK RULE (STRICT): After every problem attempt (new or retry), check pattern_notes.md for that pattern's template. Compare with user's code. If template needs update or rewrite based on latest clean code, update it. If no template exists yet, create one from user's clean code.**
 
 ## Key Insights I've Built So Far
 - "Har node ek mini problem hai"
@@ -167,6 +170,7 @@ Reading order for DevOps: 06 (Docker) > 07 (Terraform) > 08 (CI/CD)
 - NEVER mark a problem as Locked unless the LAST retry is graded Easy
 - After every session: update LIVE SESSION STATE at top of this file
 - At end of a pattern: show full updated summary
+- **UNIQUE TESTED COUNT RULE (STRICT): "X/48 unique problems tested" count ONLY increases when a problem with Status "New" is attempted for the FIRST TIME. Retries of already-tested problems do NOT increase this count. EVER. Read progress.md Summary table to get accurate count — don't calculate in your head.**
 - **CROSS-DEVICE WORKFLOW:** Update files > git push > other laptop > git pull > tell AI "read dsa/CONTEXT.md" > continue
 
 ## How To Resume On Any Device

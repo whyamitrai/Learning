@@ -164,7 +164,24 @@ return count
 (pending — will update from my code when I solve this in revision)
 
 **Template — Binary Search on Answer:**
-(pending — will update from my code when I solve this in revision)
+```python
+lo = 1
+hi = max(piles)
+while lo < hi:
+    mid = (lo + hi) // 2
+    speed = 0
+    for pile in piles:
+        speed += ceil(pile / mid)
+    if speed <= h:
+        hi = mid
+    else:
+        lo = mid + 1
+return lo
+# lo = minimum possible answer, hi = maximum possible answer
+# Feasibility check: can we do it with mid? If yes, try smaller (hi = mid). If no, go bigger (lo = mid + 1).
+# Return lo (lo == hi at convergence, that's the answer)
+# ceil(pile/mid) = math.ceil or (pile + mid - 1) // mid
+```
 
 ---
 
@@ -183,12 +200,39 @@ return count
 - Histogram: guessed Sliding Window instead of Monotonic Stack
 - Trapping Rain: variable overwrite (height), stack[-1] vs stack[i], empty check, append missing, += vs =
 - Remaining stack processing: after loop ends, stack mein jo bacha uska bhi answer nikalna hai
+- Histogram empty stack case: if/else se handle karna confusing — use `left = stack[-1] if stack else -1` instead. Cleaner, ek line mein done.
+- Second loop mein right boundary = `len(heights)`, NOT `i` (i is stale from first loop)
 
 **Template — Next Greater (left to right):**
 (pending — will update from my code when I solve this in revision)
 
 **Template — Histogram (left + right boundaries):**
-(pending — will update from my code when I solve this in revision)
+```python
+stack = []
+area = 0
+n = len(heights)
+for height in range(n):
+    while stack and heights[height] < heights[stack[-1]]:
+        idx = stack.pop()
+        bar_height = heights[idx]
+        right = height
+        left = stack[-1] if stack else -1
+        width = right - left - 1
+        area = max(area, bar_height * width)
+    stack.append(height)
+while stack:
+    idx = stack.pop()
+    bar_height = heights[idx]
+    right = n
+    left = stack[-1] if stack else -1
+    width = right - left - 1
+    area = max(area, bar_height * width)
+return area
+# Key: left = stack[-1] if stack else -1 handles empty stack cleanly
+# First loop: right = current index (element jo chhota mila)
+# Second loop: right = n (array khatam, koi chhota nahi mila right mein)
+# Width = right - left - 1 (dono boundaries exclusive)
+```
 
 ---
 
