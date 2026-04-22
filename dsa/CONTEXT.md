@@ -17,12 +17,12 @@
 ```
 Last Updated    : 2026-04-22
 Current Pattern : REVISION
-Current Problem : Two Sum II — Easy. Session in progress.
+Current Problem : Contains Duplicate — Easy. Session in progress.
 Problem Status  : Revision in progress
 Problems Solved : 48
-Next Step       : Balanced Binary Tree, Binary Subarrays retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko retry Apr 28. Histogram, Two Sum II retry Apr 29, May 6. Continue random problems.
+Next Step       : Balanced Binary Tree, Binary Subarrays retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko retry Apr 28. Histogram retry Apr 29. Two Sum II, Contains Duplicate final May 6. Continue random problems.
 Waiting For     : Next problem
-Notes           : 15/48 unique problems tested, 0 locked. Histogram Easy, Two Sum II Easy. Opposite Ends template added.
+Notes           : 16/48 unique problems tested, 0 locked. Histogram Easy, Two Sum II Easy, Contains Duplicate Easy. Opposite Ends template added.
 ```
 
 ## Session Log
@@ -40,7 +40,7 @@ Notes           : 15/48 unique problems tested, 0 locked. Histogram Easy, Two Su
 | Apr 18 | Revision Day 4 — Retries + New | 0 new | 4 revised: Trapping Rain Good, Circular Subarray Good, Container Easy, Histogram Good | Both approach remembered, impl still needs work. |
 | Apr 20 | Revision Day 5 — Retries + New | 0 new | 7 revised: Longest Substring Easy, Diameter Easy, First Bad Version Easy, Permutation Easy, Balanced Tree Good, Validate BST Easy | Files restructured. 13/48 unique tested, 0 locked. |
 | Apr 21 | Revision Day 6 — Retries | 0 new | 3 revised: Subarray Sum Easy, Koko Easy, Histogram Hard | Histogram width formula struggle. 2 new behavior rules added. 3 templates updated. 14/48 tested (no new problems today). |
-| Apr 22 | Histogram retry Easy + Two Sum II Easy | 1 new (Two Sum II) | Histogram Easy | 15/48 tested. Opposite Ends template added. |
+| Apr 22 | Histogram retry Easy + Two Sum II Easy + Contains Duplicate Easy | 2 new (Two Sum II, Contains Duplicate) | Histogram Easy | 16/48 tested. Opposite Ends template added. |
 
 ---
 

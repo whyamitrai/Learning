@@ -117,3 +117,4 @@ Full history of every attempt. Append-only — never delete rows.
 | 24 | Apr 21 | Largest Rectangle in Histogram (LC 84) — RETRY | Monotonic Stack | Correct | 5 | Hard | Pattern correct (stack). Width formula struggle — empty stack case, right boundary in second loop, if/else structure. Multiple fixes needed. Last time's approach (left=-1 sentinel) was cleaner but didn't recall it. | Apr 22 |
 | 25 | Apr 22 | Largest Rectangle in Histogram (LC 84) — RETRY 2 | Monotonic Stack | Correct | 1 | Easy | Pattern, width formula, remaining stack handling — all clean. No help needed. Big improvement from yesterday's Hard. | Apr 29 |
 | 26 | Apr 22 | Two Sum II (LC 167) | Two Pointers (opposite ends) | Correct | 1 | Easy | Pattern instant. Shrink logic correct. Only fix: tuple to list return. 1-indexed concept learned. | May 6 |
+| 27 | Apr 22 | Contains Duplicate (LC 217) | Hashmap/Set (membership) | Correct | 1 | Easy | Set membership instant. Clean code. | May 6 |

@@ -22,7 +22,7 @@
 | 1 | Valid Anagram | Frequency count | New | — | — |
 | 2 | Two Sum (Unsorted) | Complement lookup | New | — | — |
 | 3 | Intersection of Two Arrays | Set intersection | New | — | — |
-| 4 | Contains Duplicate | Set membership | New | — | — |
+| 4 | Contains Duplicate | Set membership | Retry | Easy-final pending | May 6 |
 | 5 | First Unique Character | Frequency count | New | — | — |
 | 6 | Happy Number | Cycle detection via set | New | — | — |
 
@@ -98,11 +98,11 @@
 | Pattern | Total | New | Retry | Locked |
 | --- | --- | --- | --- | --- |
 | Two Pointers | 7 | 4 | 3 | 0 |
-| Hashmap / Set | 6 | 6 | 0 | 0 |
+| Hashmap / Set | 6 | 5 | 1 | 0 |
 | Sliding Window | 6 | 4 | 2 | 0 |
 | Prefix Sum | 5 | 3 | 2 | 0 |
 | Kadane's | 3 | 2 | 1 | 0 |
 | Binary Search | 6 | 4 | 2 | 0 |
 | Monotonic Stack | 5 | 3 | 2 | 0 |
 | Trees | 10 | 7 | 3 | 0 |
-| **Total** | **48** | **33** | **15** | **0** |
+| **Total** | **48** | **32** | **16** | **0** |
