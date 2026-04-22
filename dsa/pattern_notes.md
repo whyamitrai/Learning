@@ -79,6 +79,25 @@ return True
 **Template — Complement Lookup:**
 (pending — will update from my code when I solve this in revision)
 
+**Template — Cycle Detection via Set (Happy Number style):**
+```python
+seen = set()
+while n != 1:
+    total = 0
+    for i in str(n):
+        total += int(i) * int(i)
+    if total not in seen:
+        seen.add(total)
+    else:
+        return False
+    n = total
+return True
+# Set mein har computed value store karo
+# Repeat aayi = cycle = False
+# Target value aayi (1) = True
+# n update karna mat bhoolna after computing total
+```
+
 **Template — Frequency Count:**
 (pending — will update from my code when I solve this in revision)
 

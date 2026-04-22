@@ -119,3 +119,4 @@ Full history of every attempt. Append-only — never delete rows.
 | 26 | Apr 22 | Two Sum II (LC 167) | Two Pointers (opposite ends) | Correct | 1 | Easy | Pattern instant. Shrink logic correct. Only fix: tuple to list return. 1-indexed concept learned. | May 6 |
 | 27 | Apr 22 | Contains Duplicate (LC 217) | Hashmap/Set (membership) | Correct | 1 | Easy | Set membership instant. Clean code. | May 6 |
 | 28 | Apr 22 | Valid Palindrome (LC 125) | Two Pointers (opposite ends) | Correct | 1 | Easy | Pattern correct. Approach + invariant solid. Minor: .isalnum() recall miss, len(s)-1 off-by-one. | May 6 |
+| 29 | Apr 22 | Happy Number (LC 202) | Hashmap/Set (cycle detection) | Correct | 1 | Easy | Pattern correct (set cycle detect). Minor: forgot square, forgot n=total update. Self-fixed. | May 6 |
