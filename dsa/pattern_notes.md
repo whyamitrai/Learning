@@ -36,6 +36,27 @@ while left < right:
 # while left < right — equal nahi, same element do baar nahi use hoga
 ```
 
+**Template — Opposite Ends (Palindrome check with skip):**
+```python
+left = 0
+right = len(s) - 1
+while left < right:
+    while left < right and not s[left].isalnum():
+        left += 1
+    while left < right and not s[right].isalnum():
+        right -= 1
+    if s[left].lower() == s[right].lower():
+        left += 1
+        right -= 1
+    else:
+        return False
+return True
+# Skip non-alphanumeric: inner while loops with left < right guard
+# Case-insensitive: .lower() on both sides
+# .isalnum() = letters + digits dono valid
+# left < right guard inner loops mein bhi — nahi toh out of bounds
+```
+
 **Template — Same Direction (slow-fast):**
 (pending — will update from my code when I solve this in revision)
 

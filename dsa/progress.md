@@ -9,7 +9,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | Container With Most Water | Shrink from both ends | Retry | Easy-final pending | May 2 |
 | 2 | Move Zeroes | Partition (slow-fast) | New | — | — |
-| 3 | Valid Palindrome | Compare inward | New | — | — |
+| 3 | Valid Palindrome | Compare inward | Retry | Easy-final pending | May 6 |
 | 4 | Two Sum II (Sorted) | Shrink from both ends | Retry | Easy-final pending | May 6 |
 | 5 | Remove Duplicates (Sorted Array) | Slow-fast write | Retry | Easy-final pending | Apr 29 |
 | 6 | Remove Element | Partition | New | — | — |
@@ -97,7 +97,7 @@
 
 | Pattern | Total | New | Retry | Locked |
 | --- | --- | --- | --- | --- |
-| Two Pointers | 7 | 4 | 3 | 0 |
+| Two Pointers | 7 | 3 | 4 | 0 |
 | Hashmap / Set | 6 | 5 | 1 | 0 |
 | Sliding Window | 6 | 4 | 2 | 0 |
 | Prefix Sum | 5 | 3 | 2 | 0 |
@@ -105,4 +105,4 @@
 | Binary Search | 6 | 4 | 2 | 0 |
 | Monotonic Stack | 5 | 3 | 2 | 0 |
 | Trees | 10 | 7 | 3 | 0 |
-| **Total** | **48** | **32** | **16** | **0** |
+| **Total** | **48** | **31** | **17** | **0** |

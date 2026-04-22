@@ -17,12 +17,12 @@
 ```
 Last Updated    : 2026-04-22
 Current Pattern : REVISION
-Current Problem : Contains Duplicate — Easy. Session in progress.
-Problem Status  : Revision in progress
+Current Problem : Valid Palindrome — Easy. Session in progress.
+Problem Status  : Solved, Easy grade
 Problems Solved : 48
-Next Step       : Balanced Binary Tree, Binary Subarrays retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko retry Apr 28. Histogram retry Apr 29. Two Sum II, Contains Duplicate final May 6. Continue random problems.
+Next Step       : Balanced Binary Tree, Binary Subarrays retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko retry Apr 28. Histogram, Remove Dup retry Apr 29. Container retry May 2. Permutation, Validate BST retry May 4. Two Sum II, Contains Duplicate, Valid Palindrome retry May 6. Continue random problems.
 Waiting For     : Next problem
-Notes           : 16/48 unique problems tested, 0 locked. Histogram Easy, Two Sum II Easy, Contains Duplicate Easy. Opposite Ends template added.
+Notes           : 17/48 unique problems tested, 0 locked. Valid Palindrome Easy. Palindrome template added.
 ```
 
 ## Session Log
@@ -40,7 +40,7 @@ Notes           : 16/48 unique problems tested, 0 locked. Histogram Easy, Two Su
 | Apr 18 | Revision Day 4 — Retries + New | 0 new | 4 revised: Trapping Rain Good, Circular Subarray Good, Container Easy, Histogram Good | Both approach remembered, impl still needs work. |
 | Apr 20 | Revision Day 5 — Retries + New | 0 new | 7 revised: Longest Substring Easy, Diameter Easy, First Bad Version Easy, Permutation Easy, Balanced Tree Good, Validate BST Easy | Files restructured. 13/48 unique tested, 0 locked. |
 | Apr 21 | Revision Day 6 — Retries | 0 new | 3 revised: Subarray Sum Easy, Koko Easy, Histogram Hard | Histogram width formula struggle. 2 new behavior rules added. 3 templates updated. 14/48 tested (no new problems today). |
-| Apr 22 | Histogram retry Easy + Two Sum II Easy + Contains Duplicate Easy | 2 new (Two Sum II, Contains Duplicate) | Histogram Easy | 16/48 tested. Opposite Ends template added. |
+| Apr 22 | Histogram retry Easy + Two Sum II Easy + Contains Duplicate Easy + Valid Palindrome Easy | 3 new (Two Sum II, Contains Duplicate, Valid Palindrome) | Histogram Easy | 17/48 tested. Palindrome template added. Problem Presentation Rules added to CONTEXT + steering. |
 
 ---
 
@@ -75,6 +75,15 @@ Every problem MUST follow this order:
 7. **Your review** — you review, point out issues
 
 NO skipping steps. Ever.
+
+## Problem Presentation Rules (STRICT — NO EXCEPTIONS)
+> These override everything. Before presenting ANY problem to the user, follow these:
+
+1. **New problem:** Say ONLY the problem name + LeetCode number + problem statement (what the problem asks). NEVER reveal pattern, variant, category, section heading, or any hint about approach. User identifies the pattern themselves.
+2. **Retry problem:** Say ONLY the problem name + LeetCode number + "bata kya yaad hai". NEVER mention past grade, past mistakes, pattern, variant, or what went wrong last time.
+3. **NEVER copy or reference pattern/variant info from progress.md into chat.** That file is internal tracking only — not for showing to the user.
+4. When picking a random problem from progress.md, strip ALL metadata (pattern name, variant, section heading) before presenting. User sees only the problem name and statement.
+5. These rules apply to EVERY problem — new, retry, revision, any mode. No exceptions.
 
 ## Debug Rules
 If my code is wrong:
