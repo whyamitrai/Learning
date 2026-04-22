@@ -210,27 +210,26 @@ return lo
 ```python
 stack = []
 area = 0
-n = len(heights)
-for height in range(n):
-    while stack and heights[height] < heights[stack[-1]]:
+for i in range(len(heights)):
+    while stack and heights[i] < heights[stack[-1]]:
         idx = stack.pop()
-        bar_height = heights[idx]
-        right = height
+        height = heights[idx]
+        right = i
         left = stack[-1] if stack else -1
         width = right - left - 1
-        area = max(area, bar_height * width)
-    stack.append(height)
+        area = max(area, height * width)
+    stack.append(i)
 while stack:
     idx = stack.pop()
-    bar_height = heights[idx]
-    right = n
+    height = heights[idx]
+    right = len(heights)
     left = stack[-1] if stack else -1
     width = right - left - 1
-    area = max(area, bar_height * width)
+    area = max(area, height * width)
 return area
 # Key: left = stack[-1] if stack else -1 handles empty stack cleanly
-# First loop: right = current index (element jo chhota mila)
-# Second loop: right = n (array khatam, koi chhota nahi mila right mein)
+# First loop: right = i (current index, element jo chhota mila)
+# Second loop: right = len(heights) (array khatam, koi chhota nahi mila right mein)
 # Width = right - left - 1 (dono boundaries exclusive)
 ```
 

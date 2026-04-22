@@ -73,7 +73,7 @@
 | 1 | Next Greater Element I | Next greater (right) | New | — | — |
 | 2 | Daily Temperatures | Next greater (right, index diff) | New | — | — |
 | 3 | Next Greater Element II | Circular next greater | New | — | — |
-| 4 | Largest Rectangle in Histogram | Span-based (left+right boundary) | Retry | Hard-1 pending | Apr 22 |
+| 4 | Largest Rectangle in Histogram | Span-based (left+right boundary) | Retry | Hard-3 pending | Apr 29 |
 | 5 | Trapping Rain Water | Min(maxLeft, maxRight) - height | Retry | Good-2 pending | Apr 25 |
 
 ## Trees — DFS + BFS (10 problems)
