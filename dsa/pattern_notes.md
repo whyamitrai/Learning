@@ -20,8 +20,21 @@
 **Common mistakes:**
 - (none yet from revision)
 
-**Template — Opposite Ends:**
-(pending — will update from my code when I solve this in revision)
+**Template — Opposite Ends (Two Sum II style):**
+```python
+left = 0
+right = len(numbers) - 1
+while left < right:
+    if numbers[right] + numbers[left] == target:
+        return [left + 1, right + 1]
+    elif numbers[right] + numbers[left] < target:
+        left += 1
+    else:
+        right -= 1
+# Sorted array: sum bada hai toh right--, chhota hai toh left++
+# 1-indexed return: +1 kar ke dena
+# while left < right — equal nahi, same element do baar nahi use hoga
+```
 
 **Template — Same Direction (slow-fast):**
 (pending — will update from my code when I solve this in revision)
