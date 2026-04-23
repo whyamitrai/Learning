@@ -19,7 +19,7 @@
 
 | # | Problem | Variant | Status | Step | Next Retry |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Valid Anagram | Frequency count | New | — | — |
+| 1 | Valid Anagram | Frequency count | Retry | Easy-final pending | May 6 |
 | 2 | Two Sum (Unsorted) | Complement lookup | New | — | — |
 | 3 | Intersection of Two Arrays | Set intersection | New | — | — |
 | 4 | Contains Duplicate | Set membership | Retry | Easy-final pending | May 6 |
@@ -98,11 +98,11 @@
 | Pattern | Total | New | Retry | Locked |
 | --- | --- | --- | --- | --- |
 | Two Pointers | 7 | 3 | 4 | 0 |
-| Hashmap / Set | 6 | 4 | 2 | 0 |
+| Hashmap / Set | 6 | 3 | 3 | 0 |
 | Sliding Window | 6 | 4 | 2 | 0 |
 | Prefix Sum | 5 | 3 | 2 | 0 |
 | Kadane's | 3 | 2 | 1 | 0 |
 | Binary Search | 6 | 4 | 2 | 0 |
 | Monotonic Stack | 5 | 3 | 2 | 0 |
 | Trees | 10 | 7 | 3 | 0 |
-| **Total** | **48** | **30** | **18** | **0** |
+| **Total** | **48** | **29** | **19** | **0** |
