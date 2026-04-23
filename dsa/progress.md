@@ -44,7 +44,7 @@
 | 1 | Subarray Sum Equals K | Prefix + Hashmap (Count) | Retry | Hard-3 pending | Apr 28 |
 | 2 | Continuous Subarray Sum | Prefix + Hashmap (Modulo, Boolean) | New | — | — |
 | 3 | Subarray Sums Divisible by K | Prefix + Hashmap (Modulo, Count) | New | — | — |
-| 4 | Binary Subarrays With Sum | Prefix + Hashmap (Exact Sum, Count) | Retry | Good-1 pending | Apr 23 |
+| 4 | Binary Subarrays With Sum | Prefix + Hashmap (Exact Sum, Count) | Retry | Good-2 pending | Apr 30 |
 | 5 | Maximum Size Subarray Sum Equals K | Prefix + Hashmap (Max Length) | New | — | — |
 
 ## Kadane's Algorithm (3 problems)

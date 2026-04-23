@@ -122,3 +122,4 @@ Full history of every attempt. Append-only — never delete rows.
 | 29 | Apr 22 | Happy Number (LC 202) | Hashmap/Set (cycle detection) | Correct | 1 | Easy | Pattern correct (set cycle detect). Minor: forgot square, forgot n=total update. Self-fixed. | May 6 |
 | 30 | Apr 22 | Valid Anagram (LC 242) | Hashmap/Set (frequency count) | Correct | 1 | Easy | Two dicts, frequency compare. Clean code. | May 6 |
 | 31 | Apr 23 | Balanced Binary Tree (LC 110) — RETRY | Trees (DFS) | Correct | 2 | Easy | -1 signal, propagation, order (propagation before abs) — all correct. Typos only: node vs root, = vs ==. | Apr 30 |
+| 32 | Apr 23 | Binary Subarrays With Sum (LC 930) — RETRY | Prefix Sum | Correct | 2 | Easy | Pattern correct, {0:1} reasoning solid. Minor: +1 typo in get line, k vs goal naming. No sliding window confusion this time. | Apr 30 |
