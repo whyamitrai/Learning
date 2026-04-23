@@ -15,14 +15,14 @@
 > This is what makes cross-device sync work. Push after every session.
 
 ```
-Last Updated    : 2026-04-22
+Last Updated    : 2026-04-23
 Current Pattern : REVISION
-Current Problem : —
-Problem Status  : Session complete
+Current Problem : Balanced Binary Tree — Easy. Session in progress.
+Problem Status  : Revision in progress
 Problems Solved : 48
-Next Step       : Balanced Binary Tree, Binary Subarrays retry Apr 23. Trapping Rain, Circular Subarray retry Apr 25. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko retry Apr 28. Histogram, Remove Dup retry Apr 29. Container retry May 2. Permutation, Validate BST retry May 4. Two Sum II, Contains Duplicate, Valid Palindrome, Happy Number, Valid Anagram retry May 6. Continue random problems.
-Waiting For     : Next session
-Notes           : 19/48 unique problems tested, 0 locked. Today: Histogram retry Easy, Two Sum II Easy, Contains Duplicate Easy, Valid Palindrome Easy, Happy Number Easy, Valid Anagram Easy. Problem Presentation Rules added. Palindrome + Cycle detection templates added.
+Next Step       : Binary Subarrays retry today (Apr 23). Trapping Rain, Circular Subarray retry Apr 25. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko retry Apr 28. Histogram, Remove Dup retry Apr 29. Balanced Tree retry Apr 30. Container retry May 2. Permutation, Validate BST retry May 4. Two Sum II, Contains Duplicate, Valid Palindrome, Happy Number, Valid Anagram retry May 6. Continue random problems.
+Waiting For     : Next problem
+Notes           : 19/48 unique problems tested, 0 locked. Balanced Tree template added.
 ```
 
 ## Session Log

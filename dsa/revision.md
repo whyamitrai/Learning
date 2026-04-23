@@ -121,3 +121,4 @@ Full history of every attempt. Append-only — never delete rows.
 | 28 | Apr 22 | Valid Palindrome (LC 125) | Two Pointers (opposite ends) | Correct | 1 | Easy | Pattern correct. Approach + invariant solid. Minor: .isalnum() recall miss, len(s)-1 off-by-one. | May 6 |
 | 29 | Apr 22 | Happy Number (LC 202) | Hashmap/Set (cycle detection) | Correct | 1 | Easy | Pattern correct (set cycle detect). Minor: forgot square, forgot n=total update. Self-fixed. | May 6 |
 | 30 | Apr 22 | Valid Anagram (LC 242) | Hashmap/Set (frequency count) | Correct | 1 | Easy | Two dicts, frequency compare. Clean code. | May 6 |
+| 31 | Apr 23 | Balanced Binary Tree (LC 110) — RETRY | Trees (DFS) | Correct | 2 | Easy | -1 signal, propagation, order (propagation before abs) — all correct. Typos only: node vs root, = vs ==. | Apr 30 |

@@ -319,7 +319,23 @@ return area
 (pending — will update from my code when I solve this in revision)
 
 **Template — Boolean check with -1 signal (balanced tree):**
-(pending — will update from my code when I solve this in revision)
+```python
+def solve(root):
+    if not root:
+        return 0
+    left = solve(root.left)
+    right = solve(root.right)
+    if left == -1 or right == -1:
+        return -1
+    if abs(right - left) > 1:
+        return -1
+    return 1 + max(right, left)
+return solve(root) != -1
+# -1 = unbalanced signal. Propagate up immediately.
+# Order matters: check -1 propagation BEFORE abs check (otherwise -1 as height gives wrong abs)
+# Base case: return 0 (height), not True/False
+# Final: solve(root) != -1 converts to boolean
+```
 
 **Template — Range validation (Validate BST, my style):**
 ```python

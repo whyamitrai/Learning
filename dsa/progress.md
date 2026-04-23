@@ -84,7 +84,7 @@
 | 2 | Same Tree | Compare two trees | New | — | — |
 | 3 | Invert Binary Tree | Swap children | New | — | — |
 | 4 | Diameter of Binary Tree | Global + return height | Retry | Good-2 pending | Apr 27 |
-| 5 | Balanced Binary Tree | Boolean check (-1 signal) | Retry | Good-1 pending | Apr 23 |
+| 5 | Balanced Binary Tree | Boolean check (-1 signal) | Retry | Good-2 pending | Apr 30 |
 | 6 | Path Sum | Root-to-leaf sum check | New | — | — |
 | 7 | Lowest Common Ancestor | Find LCA using left/right signals | New | — | — |
 | 8 | Binary Tree Level Order Traversal | BFS with queue, level-wise grouping | New | — | — |
