@@ -76,8 +76,17 @@ return True
 **Common mistakes:**
 - (none yet from revision)
 
-**Template — Complement Lookup:**
-(pending — will update from my code when I solve this in revision)
+**Template — Complement Lookup (Two Sum style):**
+```python
+seen = {}
+for i in range(len(nums)):
+    if target - nums[i] in seen:
+        return [seen[target - nums[i]], i]
+    seen[nums[i]] = i
+# Check FIRST, store AFTER — avoids using same element twice
+# Store value:index mapping (need to return indices)
+# Complement = target - current
+```
 
 **Template — Cycle Detection via Set (Happy Number style):**
 ```python
