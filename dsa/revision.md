@@ -124,3 +124,4 @@ Full history of every attempt. Append-only — never delete rows.
 | 31 | Apr 23 | Balanced Binary Tree (LC 110) — RETRY | Trees (DFS) | Correct | 2 | Easy | -1 signal, propagation, order (propagation before abs) — all correct. Typos only: node vs root, = vs ==. | Apr 30 |
 | 32 | Apr 23 | Binary Subarrays With Sum (LC 930) — RETRY | Prefix Sum | Correct | 2 | Easy | Pattern correct, {0:1} reasoning solid. Minor: +1 typo in get line, k vs goal naming. No sliding window confusion this time. | Apr 30 |
 | 33 | Apr 23 | Two Sum (LC 1) | Hashmap/Set (complement lookup) | Correct | 1 | Easy | Complement lookup instant. Check then store order correct. Clean code. | May 7 |
+| 34 | Apr 23 | Maximum Subarray (LC 53) | Kadane's | Correct | 2 | Good | Pattern correct. Invariant initially wrong (< 0 reset instead of max choice). += vs = typo. Core Kadane decision concept clarified. | Apr 26 |

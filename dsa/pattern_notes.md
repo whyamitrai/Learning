@@ -202,7 +202,18 @@ return count
 - Edge case: all negative array in circular variant
 
 **Template — Classic Kadane:**
-(pending — will update from my code when I solve this in revision)
+```python
+out = nums[0]
+current_sum = 0
+for num in nums:
+    current_sum = max(num, current_sum + num)
+    out = max(out, current_sum)
+return out
+# Decision at each element: extend previous subarray OR start new
+# max(num, current_sum + num) — if current_sum negative, start fresh
+# out = nums[0], not 0 — handles all-negative arrays
+# current_sum = 0 initially (first iteration max(nums[0], 0+nums[0]) = nums[0], correct)
+```
 
 ---
 

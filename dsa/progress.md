@@ -51,7 +51,7 @@
 
 | # | Problem | Variant | Status | Step | Next Retry |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Maximum Subarray | Classic Kadane | New | — | — |
+| 1 | Maximum Subarray | Classic Kadane | Retry | Good-1 pending | Apr 26 |
 | 2 | Best Time to Buy and Sell Stock | Kadane variant (min so far) | New | — | — |
 | 3 | Maximum Sum Circular Subarray | Kadane + circular trick | Retry | Good-2 pending | Apr 25 |
 
@@ -101,8 +101,8 @@
 | Hashmap / Set | 6 | 2 | 4 | 0 |
 | Sliding Window | 6 | 4 | 2 | 0 |
 | Prefix Sum | 5 | 3 | 2 | 0 |
-| Kadane's | 3 | 2 | 1 | 0 |
+| Kadane's | 3 | 1 | 2 | 0 |
 | Binary Search | 6 | 4 | 2 | 0 |
 | Monotonic Stack | 5 | 3 | 2 | 0 |
 | Trees | 10 | 7 | 3 | 0 |
-| **Total** | **48** | **28** | **20** | **0** |
+| **Total** | **48** | **27** | **21** | **0** |
