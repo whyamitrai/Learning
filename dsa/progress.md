@@ -8,7 +8,7 @@
 | # | Problem | Variant | Status | Step | Next Retry |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Container With Most Water | Shrink from both ends | Retry | Easy-final pending | May 2 |
-| 2 | Move Zeroes | Partition (slow-fast) | New | — | — |
+| 2 | Move Zeroes | Partition (slow-fast) | Retry | Good-1 pending | Apr 26 |
 | 3 | Valid Palindrome | Compare inward | Retry | Easy-final pending | May 6 |
 | 4 | Two Sum II (Sorted) | Shrink from both ends | Retry | Easy-final pending | May 6 |
 | 5 | Remove Duplicates (Sorted Array) | Slow-fast write | Retry | Easy-final pending | Apr 29 |
@@ -52,7 +52,7 @@
 | # | Problem | Variant | Status | Step | Next Retry |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Maximum Subarray | Classic Kadane | Retry | Good-1 pending | Apr 26 |
-| 2 | Best Time to Buy and Sell Stock | Kadane variant (min so far) | New | — | — |
+| 2 | Best Time to Buy and Sell Stock | Kadane variant (min so far) | Retry | Good-1 pending | Apr 26 |
 | 3 | Maximum Sum Circular Subarray | Kadane + circular trick | Retry | Good-2 pending | Apr 25 |
 
 ## Binary Search (6 problems)
@@ -97,12 +97,12 @@
 
 | Pattern | Total | New | Retry | Locked |
 | --- | --- | --- | --- | --- |
-| Two Pointers | 7 | 3 | 4 | 0 |
+| Two Pointers | 7 | 2 | 5 | 0 |
 | Hashmap / Set | 6 | 2 | 4 | 0 |
 | Sliding Window | 6 | 4 | 2 | 0 |
 | Prefix Sum | 5 | 3 | 2 | 0 |
-| Kadane's | 3 | 1 | 2 | 0 |
+| Kadane's | 3 | 0 | 3 | 0 |
 | Binary Search | 6 | 4 | 2 | 0 |
 | Monotonic Stack | 5 | 3 | 2 | 0 |
 | Trees | 10 | 7 | 3 | 0 |
-| **Total** | **48** | **27** | **21** | **0** |
+| **Total** | **48** | **25** | **23** | **0** |

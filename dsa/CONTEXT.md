@@ -17,12 +17,12 @@
 ```
 Last Updated    : 2026-04-23
 Current Pattern : REVISION
-Current Problem : Maximum Subarray — Good. Session in progress.
+Current Problem : Buy Sell Stock — Good. Session in progress.
 Problem Status  : Revision in progress
 Problems Solved : 48
-Next Step       : Trapping Rain, Circular Subarray retry Apr 25. Maximum Subarray retry Apr 26. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko retry Apr 28. Histogram, Remove Dup retry Apr 29. Balanced Tree, Binary Subarrays retry Apr 30. Container retry May 2. Permutation, Validate BST retry May 4. Two Sum II, Contains Duplicate, Valid Palindrome, Happy Number, Valid Anagram retry May 6. Two Sum retry May 7. Continue random problems.
+Next Step       : Trapping Rain, Circular Subarray retry Apr 25. Maximum Subarray, Move Zeroes, Buy Sell Stock retry Apr 26. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko retry Apr 28. Histogram, Remove Dup retry Apr 29. Balanced Tree, Binary Subarrays retry Apr 30. Container retry May 2. Permutation, Validate BST retry May 4. Two Sum II, Contains Duplicate, Valid Palindrome, Happy Number, Valid Anagram retry May 6. Two Sum retry May 7. Continue random problems.
 Waiting For     : Next problem
-Notes           : 21/48 unique problems tested, 0 locked. Today: Balanced Tree Easy, Binary Subarrays Easy, Two Sum Easy, Maximum Subarray Good. Balanced Tree + Complement Lookup + Kadane templates added.
+Notes           : 23/48 unique problems tested, 0 locked. Today: Balanced Tree Easy, Binary Subarrays Easy, Two Sum Easy, Maximum Subarray Good, Move Zeroes Good, Buy Sell Stock Good. Templates added: Balanced Tree, Complement Lookup, Kadane, Slow-Fast.
 ```
 
 ## Session Log

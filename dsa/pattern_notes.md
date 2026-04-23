@@ -57,8 +57,19 @@ return True
 # left < right guard inner loops mein bhi — nahi toh out of bounds
 ```
 
-**Template — Same Direction (slow-fast):**
-(pending — will update from my code when I solve this in revision)
+**Template — Same Direction (slow-fast, Move Zeroes style):**
+```python
+left = 0
+for right in range(len(nums)):
+    if nums[right] != 0:
+        nums[left], nums[right] = nums[right], nums[left]
+        left += 1
+# left = slow pointer (next position for valid element)
+# right = fast pointer (scans entire array)
+# Non-zero milte hi swap, left++ 
+# Zeros automatically end mein aa jaate hain
+# Relative order maintained kyunki left aur right dono left-to-right chalte hain
+```
 
 ---
 
