@@ -53,7 +53,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | Maximum Subarray | Classic Kadane | Retry | Good-1 pending | Apr 26 |
 | 2 | Best Time to Buy and Sell Stock | Kadane variant (min so far) | Retry | Good-1 pending | Apr 26 |
-| 3 | Maximum Sum Circular Subarray | Kadane + circular trick | Retry | Good-2 pending | Apr 25 |
+| 3 | Maximum Sum Circular Subarray | Kadane + circular trick | Retry | Good-3 (final) pending | May 9 |
 
 ## Binary Search (6 problems)
 

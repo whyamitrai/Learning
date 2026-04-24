@@ -17,12 +17,12 @@
 ```
 Last Updated    : 2026-04-25
 Current Pattern : REVISION
-Current Problem : Trapping Rain Water — Good. Circular Subarray next.
+Current Problem : Circular Subarray — Easy. Today's retries done.
 Problem Status  : Revision in progress
 Problems Solved : 48
-Next Step       : Circular Subarray retry now. Maximum Subarray, Move Zeroes, Buy Sell Stock retry Apr 26. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko, Trapping Rain retry Apr 28. Histogram, Remove Dup retry Apr 29. Balanced Tree, Binary Subarrays retry Apr 30. Container retry May 2. Permutation, Validate BST retry May 4. Two Sum II, Contains Duplicate, Valid Palindrome, Happy Number, Valid Anagram retry May 6. Two Sum retry May 7. Continue random problems.
-Waiting For     : Circular Subarray retry
-Notes           : 23/48 unique problems tested, 0 locked. Today: Trapping Rain Good. Template added: Trapping Rain Water (stack-based).
+Next Step       : Maximum Subarray, Move Zeroes, Buy Sell Stock retry Apr 26. Longest Substring, Diameter, First Bad Version retry Apr 27. Subarray Sum, Koko, Trapping Rain retry Apr 28. Histogram, Remove Dup retry Apr 29. Balanced Tree, Binary Subarrays retry Apr 30. Container retry May 2. Permutation, Validate BST retry May 4. Two Sum II, Contains Duplicate, Valid Palindrome, Happy Number, Valid Anagram retry May 6. Two Sum retry May 7. Circular Subarray final retry May 9. Continue random problems.
+Waiting For     : Next session (Apr 26)
+Notes           : 23/48 unique problems tested, 0 locked. Today: Trapping Rain Good, Circular Subarray Easy. Templates added: Trapping Rain Water (stack-based), Circular Kadane.
 ```
 
 ## Session Log
@@ -41,6 +41,7 @@ Notes           : 23/48 unique problems tested, 0 locked. Today: Trapping Rain G
 | Apr 20 | Revision Day 5 — Retries + New | 0 new | 7 revised: Longest Substring Easy, Diameter Easy, First Bad Version Easy, Permutation Easy, Balanced Tree Good, Validate BST Easy | Files restructured. 13/48 unique tested, 0 locked. |
 | Apr 21 | Revision Day 6 — Retries | 0 new | 3 revised: Subarray Sum Easy, Koko Easy, Histogram Hard | Histogram width formula struggle. 2 new behavior rules added. 3 templates updated. 14/48 tested (no new problems today). |
 | Apr 22 | Histogram retry Easy + 5 new Easy (Two Sum II, Contains Duplicate, Valid Palindrome, Happy Number, Valid Anagram) | 5 new | Histogram Easy | 19/48 tested. Palindrome + Cycle detection + Opposite Ends templates added. Problem Presentation Rules added to CONTEXT + steering. |
+| Apr 25 | 2 retries done: Trapping Rain Good, Circular Subarray Easy | 0 new | 2 revised | 23/48 tested. Templates added: Trapping Rain (stack), Circular Kadane. |
 
 ---
 

@@ -226,6 +226,30 @@ return out
 # current_sum = 0 initially (first iteration max(nums[0], 0+nums[0]) = nums[0], correct)
 ```
 
+**Template — Circular Kadane (Max Sum Circular Subarray):**
+```python
+max_sum = float('-inf')
+min_sum = float('inf')
+current_max = 0
+current_min = 0
+total = 0
+for num in nums:
+    current_max = max(num, current_max + num)
+    max_sum = max(max_sum, current_max)
+    current_min = min(num, current_min + num)
+    min_sum = min(min_sum, current_min)
+    total += num
+if max_sum < 0:
+    return max_sum
+return max(max_sum, total - min_sum)
+# Two Kadanes in one loop: max subarray + min subarray
+# Circular max = total - min_subarray (wrap-around case)
+# Answer = max(normal_max, circular_max)
+# Edge case: all negative → total - min_sum = 0 (empty subarray, invalid)
+#   so return max_sum directly
+# total += num inside loop — avoid extra sum(nums) pass (TLE risk)
+```
+
 ---
 
 ## 6. Binary Search
