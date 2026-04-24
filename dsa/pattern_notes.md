@@ -287,6 +287,31 @@ return lo
 - Histogram empty stack case: if/else se handle karna confusing — use `left = stack[-1] if stack else -1` instead. Cleaner, ek line mein done.
 - Second loop mein right boundary = `len(heights)`, NOT `i` (i is stale from first loop)
 
+**Template — Trapping Rain Water (stack-based):**
+```python
+stack = []
+water = 0
+for i in range(len(height)):
+    while stack and height[i] > height[stack[-1]]:
+        idx = stack.pop()
+        bottom = height[idx]
+        if not stack:
+            break
+        right = i
+        left = stack[-1]
+        water_height = min(height[left], height[right]) - bottom
+        width = right - left - 1
+        water += water_height * width
+    stack.append(i)
+return water
+# Pop jab current element > stack top (badi wall mili right mein)
+# Popped element = bottom (jis pe paani tikta hai)
+# left = stack[-1] (left wall), right = i (right wall)
+# water_height = min(left, right) - bottom (chhoti wall decides level)
+# width = right - left - 1 (exclusive boundaries)
+# Empty stack after pop = no left wall = no water, break
+```
+
 **Template — Next Greater (left to right):**
 (pending — will update from my code when I solve this in revision)
 
