@@ -280,12 +280,12 @@ Vector Database, ChromaDB, Pinecone, AWS Lambda, Serverless
 
 ## ðŸŸ¢ Quick Wins (Do Today â€” In This Order)
 
-1. [ ] Change headline to: "GenAI Developer | Multi-Agent Systems (LangGraph) | AWS Bedrock | RAG Pipelines | Python"
-2. [ ] Change Rapyder job title to "GenAI Developer"
-4. [ ] Add experience bullet points with numbers (use template above)
-5. [ ] Rewrite About section (use template above)
-6. [ ] Add all 20 skills listed above
+1. [x] Change headline (done Apr 25, 2026)
+2. [x] Change Rapyder job title to "GenAI Developer" (done Apr 25, 2026)
+4. [x] Add experience bullet points with numbers (done Apr 25, 2026)
+5. [x] Rewrite About section — removed "open to roles" line for Rapyder visibility (done Apr 25, 2026)
+6. [x] Add skills — 37 skills added (done Apr 25, 2026)
 7. [ ] Set job titles and location in recruiter preferences
-8. [ ] Change banner using Canva (takes 5 min)
+8. [x] Change banner using Canva (done Apr 25, 2026)
 9. [ ] Send 10 connection requests to AI professionals/recruiters in Bangalore
 10. [ ] Write your first post (pick any Type from content strategy above)
